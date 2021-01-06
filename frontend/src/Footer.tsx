@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import { urlProp } from "./CustomTypes";
 
-const Footer = ({ url }: { url: string }) => {
+const Footer = ({ url, hyperlinkName }: urlProp) => {
   return (
     <div>
       <a href={url} className="gitHub-link">
         <p>
-          <em>GitHub</em>
+          <em>{hyperlinkName}</em>
         </p>
       </a>
     </div>
