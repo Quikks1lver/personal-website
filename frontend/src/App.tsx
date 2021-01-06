@@ -8,7 +8,7 @@ const App = () => {
   const GITHUB_URL: string = "https://github.com/Quikks1lver/personal-website";
 
   return (
-    <div className="bgrd">
+    <div>
       <Header />
       <IntroBlurb />
       <Footer url={GITHUB_URL} />
