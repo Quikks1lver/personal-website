@@ -8,9 +8,17 @@ const Header = () => {
   return (
     <div className="header">
       <HeaderButton />
-      <Filler />
+      <Filler flexSize={3} />
+
+      <HeaderButton />
+      <Filler flexSize={3} />
+
       <HomeButton />
-      <Filler />
+
+      <Filler flexSize={3} />
+      <HeaderButton />
+
+      <Filler flexSize={3} />
       <HeaderButton />
     </div>
   );

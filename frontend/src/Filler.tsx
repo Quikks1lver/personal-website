@@ -1,10 +1,10 @@
 import React from "react";
 
 /**
- * Div with flex 1 as filler
+ * Div with adjustable flex
  */
-const Filler = () => {
-  return <div style={{ flex: 1 }}></div>;
+const Filler = ({ flexSize }: { flexSize: number }) => {
+  return <div style={{ flex: flexSize }}></div>;
 };
 
 export default Filler;
