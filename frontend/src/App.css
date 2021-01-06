@@ -11,6 +11,38 @@ html {
   text-align: center;
 }
 
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+.normal-button {
+  width: 90%;
+  background-color: gold;
+  color: black;
+  border: none;
+  font-size: 16px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  margin: 5%;
+}
+.home-button {
+  border-color: hotpink;
+  cursor: pointer;
+  border: none;
+  width: 90px;
+  height: 95px;
+  background: url(./images/adam_hobbes.png) no-repeat;
+  margin: 1%;
+  /* background-color: green; for debugging */
+}
+
 /* Footer */
 .gitHub-link {
   text-align: center;
