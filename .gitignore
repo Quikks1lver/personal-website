@@ -8,5 +8,8 @@ frontend/.pnp.js
 frontend/package-lock.json
 frontend/.eslintcache
 
+# production
+frontend/build/*
+
 # for Adam
 deploy_directions.md
