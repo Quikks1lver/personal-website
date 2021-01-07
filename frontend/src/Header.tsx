@@ -2,24 +2,23 @@ import React from "react";
 import "./App.css";
 import Filler from "./Filler";
 import HeaderButton from "./HeaderButton";
-import HomeButton from "./HomeButton";
 
 const Header = () => {
   return (
     <div className="header">
-      <HeaderButton />
+      <HeaderButton buttonName="About Me" toPath="aboutme" />
       <Filler flexSize={3} />
 
-      <HeaderButton />
+      <HeaderButton buttonName="Projects" toPath="projects" />
       <Filler flexSize={3} />
 
-      <HomeButton />
+      <HeaderButton toPath="" homeButton={true} />
 
       <Filler flexSize={3} />
-      <HeaderButton />
+      <HeaderButton buttonName="Resume" toPath="resume" />
 
       <Filler flexSize={3} />
-      <HeaderButton />
+      <HeaderButton buttonName="Contact Me" toPath="contact" />
     </div>
   );
 };
