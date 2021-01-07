@@ -4,6 +4,7 @@ import { urlProp } from "./CustomTypes";
 import Footer from "./Footer";
 import Header from "./Header";
 import IntroBlurb from "./IntroBlurb";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   // Footer props
@@ -14,11 +15,17 @@ const App = () => {
   };
 
   return (
-    <div>
-      <Header />
-      <IntroBlurb />
-      <Footer url={footerProps.url} hyperlinkName={footerProps.hyperlinkName} />
-    </div>
+    <Router basename="/">
+      <div>
+        <Header />
+        <Route path="/" component={IntroBlurb} />
+        <Route path="/blurbtest" component={IntroBlurb} />
+        <Footer
+          url={footerProps.url}
+          hyperlinkName={footerProps.hyperlinkName}
+        />
+      </div>
+    </Router>
   );
 };
 

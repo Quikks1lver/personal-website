@@ -11,13 +11,6 @@ html {
   text-align: center;
 }
 
-/* Header */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Buttons */
 .normal-button {
   width: 90%;
@@ -50,4 +43,19 @@ html {
   color: gold;
   font: x-small;
   font-family: monospace;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
 }
