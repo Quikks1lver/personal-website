@@ -11,16 +11,8 @@ html {
   text-align: center;
 }
 
-/* Header */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Buttons */
 .normal-button {
-  width: 90%;
   background-color: gold;
   color: black;
   border: none;
@@ -30,7 +22,17 @@ html {
   padding: 10px;
   display: flex;
   flex: 1;
-  margin: 5%;
+}
+.hovered-button {
+  background-color: black;
+  color: gold;
+  border: none;
+  font-size: 16px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex: 1;
 }
 .home-button {
   border-color: hotpink;
@@ -40,7 +42,6 @@ html {
   height: 95px;
   background: url(./images/adam_hobbes.png) no-repeat;
   margin: 1%;
-  /* background-color: green; for debugging */
 }
 
 /* Footer */
@@ -50,4 +51,19 @@ html {
   color: gold;
   font: x-small;
   font-family: monospace;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
 }
