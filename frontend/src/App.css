@@ -19,14 +19,14 @@ strong {
   background-color: #172a45;
   text-align: left;
   width: 50%;
-  border-radius: "10px";
+  border-radius: 10px;
 }
 @media only screen and (max-width: 425px) {
   .paragraph-container {
     background-color: #172a45;
     text-align: left;
     width: 100%;
-    border-radius: "10px";
+    border-radius: 10px;
   }
 }
 
