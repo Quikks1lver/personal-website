@@ -6,19 +6,23 @@ import HeaderButton from "./HeaderButton";
 const Header = () => {
   return (
     <div className="header">
-      <HeaderButton buttonName="About Me" toPath="aboutme" />
       <Filler flexSize={3} />
+
+      <HeaderButton buttonName="About Me" toPath="aboutme" />
+      <Filler flexSize={1} />
 
       <HeaderButton buttonName="Projects" toPath="projects" />
-      <Filler flexSize={3} />
+      <Filler flexSize={1} />
 
-      <HeaderButton toPath="" homeButton={true} />
+      <HeaderButton toPath="" isHomeButton={true} />
 
-      <Filler flexSize={3} />
+      <Filler flexSize={1} />
       <HeaderButton buttonName="Resume" toPath="resume" />
 
-      <Filler flexSize={3} />
+      <Filler flexSize={1} />
       <HeaderButton buttonName="Contact Me" toPath="contact" />
+
+      <Filler flexSize={3} />
     </div>
   );
 };
