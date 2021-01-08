@@ -1,7 +1,7 @@
 export type headerButtonProp = {
   buttonName?: string;
   toPath: string;
-  homeButton?: boolean;
+  isHomeButton?: boolean;
 };
 
 export type urlProp = {

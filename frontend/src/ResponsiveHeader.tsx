@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import burger from "./images/burger.png";
 import Header from "./Header";
 import { useMediaQuery } from "./useMediaQuery";
+import { MOBILE_WIDTH_THRESHOLD } from "./Constants";
 
 /**
  * Encompasses "normal" header & header buttons, along
@@ -10,7 +11,7 @@ import { useMediaQuery } from "./useMediaQuery";
 const ResponsiveHeader = () => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   const [isHamburgerHoveredUpon, setIsHamburgerHoveredUpon] = useState(false);
-  let isMobile = useMediaQuery("(max-width: 425px)");
+  let isMobile = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
 
   return (
     <div>
