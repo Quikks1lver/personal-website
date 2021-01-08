@@ -37,8 +37,8 @@ const IntroBlurb = () => {
             <br />
             <br />
             {">"} So far, I've accumulated solid experience through internships,
-            research, my own projects, hackathons, teaching assistant
-            experience, and I'm always game to dive into more.
+            research, my own projects, hackathons, and teaching assistant
+            experience -- but I'm always game to dive into more ;).
             <br />
             <br />
             {">"} Don't hesitate to reach out if you'd like to get in contact
