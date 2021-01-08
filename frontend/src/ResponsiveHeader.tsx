@@ -30,7 +30,7 @@ const ResponsiveHeader = () => {
             <img
               src={burger}
               alt="burger drop down header button"
-              style={{ alignContent: "center" }}
+              style={{ alignContent: "center", width: "100%", height: "100%" }}
             ></img>
           </button>
         </div>
