@@ -35,7 +35,6 @@ html {
   flex: 1;
 }
 .home-button {
-  border-color: hotpink;
   cursor: pointer;
   border: none;
   width: 90px;
@@ -58,6 +57,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (max-width: 425px) {
+  .header {
+    flex-direction: column;
+  }
 }
 
 /* Nav */
