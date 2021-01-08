@@ -42,6 +42,22 @@ html {
   background: url(./images/adam_hobbes.png) no-repeat;
   margin: 1%;
 }
+.hamburger-button {
+  background-color: transparent;
+  border-color: transparent;
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.hamburger-button-hover {
+  background-color: transparent;
+  border-color: gold;
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
 
 /* Footer */
 .gitHub-link {
@@ -62,12 +78,4 @@ html {
   .header {
     flex-direction: column;
   }
-}
-
-/* Nav */
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
 }
