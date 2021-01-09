@@ -1,7 +1,8 @@
 import React from "react";
+import TerminalTextBox from "./TerminalTextBox";
 
 const AboutMe = () => {
-  return <h1>AboutMe page</h1>;
+  return <TerminalTextBox paragraphs={["testing", "botdama"]} />;
 };
 
 export default AboutMe;
