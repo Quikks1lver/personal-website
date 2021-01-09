@@ -23,19 +23,19 @@ const IntroBlurb = () => {
         {!renderFillers && <Filler flexSize={1} />}
         <div className="paragraph-container">
           <p style={paragraphStyles}>
-            {">"} I'm an aspiring Software Engineer, and currently a sophomore
-            at the <strong>UCF</strong> Burnett Honors College, pursuing a B.S.
-            in <strong>Computer Science</strong> and a Minor in{" "}
-            <strong>Statistics</strong>.
+            {">"} I'm an aspiring <strong>Software Engineer</strong>, and
+            currently a sophomore at the <strong>UCF</strong> Burnett Honors
+            College, pursuing a B.S. in <strong>Computer Science</strong> and a
+            Minor in <strong>Statistics</strong>.
             <br />
             <br />
             {">"} So far, I've accumulated solid experience through internships,
-            research, my own projects, hackathons, and teaching assistant
-            experience -- but I'm always game to dive into more ;).
+            research, projects, hackathons, and teaching assistantship -- but
+            I'm always game to dive into more ;).
             <br />
             <br />
             {">"} Don't hesitate to reach out if you'd like to get in contact
-            with me, and <strong>have fun</strong> poking around my website! =)
+            with me, and <strong>have fun</strong> poking around my website!
           </p>
         </div>
         {!renderFillers && <Filler flexSize={1} />}
