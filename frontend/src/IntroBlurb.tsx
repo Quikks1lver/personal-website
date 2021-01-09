@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import { MOBILE_WIDTH_THRESHOLD } from "./Constants";
 import Filler from "./Filler";
@@ -9,13 +9,6 @@ const IntroBlurb = () => {
     margin: "5%",
     fontSize: 16,
   };
-
-  const ellipsis: string = " ...";
-  const [showEllipsis, setShowEllipsis] = useState(true);
-  const dotDotDot = () => {
-    setShowEllipsis(!showEllipsis);
-  };
-  setTimeout(() => dotDotDot(), 1000);
 
   let renderFillers = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
 
@@ -43,10 +36,6 @@ const IntroBlurb = () => {
             <br />
             {">"} Don't hesitate to reach out if you'd like to get in contact
             with me, and <strong>have fun</strong> poking around my website! =)
-            <br />
-            <br />
-            {">"}
-            {showEllipsis && ellipsis}
           </p>
         </div>
         {!renderFillers && <Filler flexSize={1} />}

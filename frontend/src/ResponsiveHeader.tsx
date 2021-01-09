@@ -10,7 +10,6 @@ import { MOBILE_WIDTH_THRESHOLD } from "./Constants";
  */
 const ResponsiveHeader = () => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
-  const [isHamburgerHoveredUpon, setIsHamburgerHoveredUpon] = useState(false);
   let isMobile = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
 
   return (
@@ -19,13 +18,9 @@ const ResponsiveHeader = () => {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <button
             className={
-              isHamburgerHoveredUpon
-                ? "hamburger-button-hover"
-                : "hamburger-button"
+              isHamburgerOpen ? "hamburger-button-open" : "hamburger-button"
             }
             onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
-            onMouseEnter={() => setIsHamburgerHoveredUpon(true)}
-            onMouseLeave={() => setIsHamburgerHoveredUpon(false)}
           >
             <img
               src={burger}
