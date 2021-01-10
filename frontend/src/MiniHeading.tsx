@@ -5,7 +5,10 @@ import React from "react";
  * @param param0 string representing the heading
  */
 const MiniHeading = ({ heading }: { heading: string }) => {
-  return <h2>{heading}</h2>;
+  const styles: React.CSSProperties = {
+    textAlign: "center",
+  };
+  return <h2 style={styles}>-- {heading} --</h2>;
 };
 
 export default MiniHeading;
