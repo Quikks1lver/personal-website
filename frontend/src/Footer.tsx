@@ -5,7 +5,7 @@ import { urlProp } from "./CustomTypes";
 const Footer = ({ url, hyperlinkName }: urlProp) => {
   return (
     <div>
-      <a href={url} className="gitHub-link">
+      <a href={url} className="footer-link">
         <p>
           <em>{hyperlinkName}</em>
         </p>
