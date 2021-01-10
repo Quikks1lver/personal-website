@@ -17,7 +17,7 @@ const Header = () => {
       <HeaderButton toPath="" isHomeButton={true} />
 
       <Filler flexSize={1} />
-      <HeaderButton buttonName="Resume" toPath="resume" />
+      <HeaderButton buttonName="Résumé" toPath="resume" />
 
       <Filler flexSize={1} />
       <HeaderButton buttonName="Contact Me" toPath="contact" />

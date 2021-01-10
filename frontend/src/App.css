@@ -15,20 +15,6 @@ strong {
   text-align: center;
   font-size: 16;
 }
-.paragraph-container {
-  background-color: #172a45;
-  text-align: left;
-  width: 50%;
-  border-radius: 10px;
-}
-@media only screen and (max-width: 425px) {
-  .paragraph-container {
-    background-color: #172a45;
-    text-align: left;
-    width: 100%;
-    border-radius: 10px;
-  }
-}
 
 /* Buttons */
 .normal-button {
@@ -62,15 +48,15 @@ strong {
   margin: 1%;
 }
 .hamburger-button {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.605);
+  background-color: rgba(255, 255, 255, 0.605);
+  border-color: gold;
   width: 10%;
   height: 30px;
   display: flex;
   justify-content: center;
   border-radius: 5px;
 }
-.hamburger-button-hover {
+.hamburger-button-open {
   background-color: transparent;
   border-color: gold;
   width: 10%;
@@ -98,5 +84,22 @@ strong {
 @media only screen and (max-width: 425px) {
   .header {
     flex-direction: column;
+  }
+}
+
+/* Terminal Text Box */
+.paragraph-container {
+  background-color: #172a45;
+  text-align: left;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0.5%;
+}
+@media only screen and (max-width: 425px) {
+  .paragraph-container {
+    background-color: #172a45;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
   }
 }
