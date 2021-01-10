@@ -19,7 +19,7 @@ const paragraphs: string[] = [
   "Since then, I've interned, researched, and tutored in the field, and I'm actively looking for which niche I can nestle into within CS.",
   "Whatever that may be, I'm confident that I'll use my moral compass to build empowering, robust software that can advance the world.",
   "- - -",
-  "Aside from coding, of course ;), I enjoy reading and writing comic books, watching movies, playing cool board games (particularly 'Sherriff of Nottingham', trying new food, and playing around with my dog.",
+  "Aside from coding, of course ;), I enjoy reading and writing comic books, watching movies, playing cool board games (particularly 'Sherriff of Nottingham'), trying new food, and playing around with my dog.",
   "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless =).",
 ];
 
