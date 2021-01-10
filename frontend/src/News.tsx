@@ -1,9 +1,10 @@
 import React from "react";
+import MiniHeading from "./MiniHeading";
 
 const News = () => {
   return (
     <div>
-      <h1>news</h1>
+      <MiniHeading heading={"News Links"} />
     </div>
   );
 };

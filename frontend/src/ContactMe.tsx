@@ -1,7 +1,8 @@
 import React from "react";
+import MiniHeading from "./MiniHeading";
 
 const ContactMe = () => {
-  return <h1>ContactMe page</h1>;
+  return <MiniHeading heading={"Contact Me"} />;
 };
 
 export default ContactMe;
