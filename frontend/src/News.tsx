@@ -9,7 +9,7 @@ const News = () => {
     newsInfo.forEach((article) => {
       var success = true;
 
-      // from stack overflow
+      // from stack overflow -- check if the link exists
       var request = new XMLHttpRequest();
       request.open("GET", article.link, true);
       request.onreadystatechange = function () {
