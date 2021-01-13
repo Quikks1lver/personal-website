@@ -10,7 +10,7 @@ strong {
   color: gold;
 }
 a {
-  color: rgb(41, 3, 180);
+  color: #de5825;
 }
 
 /* Blurb */
@@ -93,7 +93,7 @@ a {
 
 /* News */
 .news-container {
-  background-color: #de5825;
+  background-color: #172a45;
   text-align: left;
   width: 50%;
   border-radius: 10px;
