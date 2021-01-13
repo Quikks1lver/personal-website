@@ -1,7 +1,8 @@
 import React from "react";
+import MiniHeading from "./MiniHeading";
 
 const Projects = () => {
-  return <h1>projects page</h1>;
+  return <MiniHeading heading={"Projects"} />;
 };
 
 export default Projects;

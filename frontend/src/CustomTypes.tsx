@@ -1,10 +1,16 @@
-export type headerButtonProp = {
+export interface headerButtonProp {
   buttonName?: string;
   toPath: string;
   isHomeButton?: boolean;
-};
+}
 
-export type urlProp = {
+export interface urlProp {
   url: string;
   hyperlinkName: string;
-};
+}
+
+export interface newsArticleProp {
+  blurb: string;
+  image: string;
+  link: string;
+}

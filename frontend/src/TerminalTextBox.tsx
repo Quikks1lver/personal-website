@@ -8,18 +8,13 @@ import { useMediaQuery } from "./useMediaQuery";
  * @param param0 an array of strings, representing paragraphs
  */
 const TerminalTextBox = ({ paragraphs }: { paragraphs: string[] }) => {
-  const paragraphStyles: React.CSSProperties = {
-    margin: "5%",
-    fontSize: 16,
-  };
-
   let renderFillers = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
 
   const renderParagraphs = (paragraphs: string[]): JSX.Element[] => {
     var jsxParas: JSX.Element[] = [];
     paragraphs.forEach((p) => {
       jsxParas.push(
-        <p style={paragraphStyles}>
+        <p className="paragraph">
           {">"} {p}
         </p>
       );

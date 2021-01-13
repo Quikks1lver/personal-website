@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import IntroBlurb from "./IntroBlurb";
 import Projects from "./Projects";
 import ResponsiveHeader from "./ResponsiveHeader";
-import InTheNews from "./InTheNews";
+import News from "./News";
 import { urlProp } from "./CustomTypes";
 
 const App = () => {
@@ -23,9 +23,9 @@ const App = () => {
 
       <Route exact path="/" component={IntroBlurb} />
       <Route exact path="/aboutme" component={AboutMe} />
-      <Route exact path="/contact" component={ContactMe} />
+      <Route exact path="/contactme" component={ContactMe} />
       <Route path="/projects" component={Projects} />
-      <Route path="/news" component={InTheNews} />
+      <Route path="/news" component={News} />
 
       <Footer url={footerProps.url} hyperlinkName={footerProps.hyperlinkName} />
     </Router>

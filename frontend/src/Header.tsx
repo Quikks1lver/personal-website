@@ -20,7 +20,7 @@ const Header = () => {
       <HeaderButton buttonName="News Links" toPath="news" />
 
       <Filler flexSize={1} />
-      <HeaderButton buttonName="Contact Me" toPath="contact" />
+      <HeaderButton buttonName="Contact Me" toPath="contactme" />
 
       <Filler flexSize={3} />
     </div>
