@@ -9,3 +9,4 @@
 - [Hash Router v. Browser Router](https://stackoverflow.com/questions/51974369/hashrouter-vs-browserrouter#51975988)
 - [Render Components on Media Query](https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/)
 - [Type Aliases v. Interfaces in TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-aliases)
+- [Use JS to see if a link exists](https://stackoverflow.com/questions/10926880/using-javascript-to-detect-whether-the-url-exists-before-display-in-iframe#22097991)
