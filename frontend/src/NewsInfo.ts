@@ -28,7 +28,7 @@ newsInfo.push({
     "https://www.facebook.com/WestChesterAreaSchoolDistrict/posts/congratulations-to-the-2019-spellman-humanitarian-winnerseast-high-school-jessic/2317693254917968/",
 });
 newsInfo.push({
-  blurb: "February 2019: National Merit Finalist",
+  blurb: "April 2019: National Merit Finalist",
   image: dailyLocalIcon,
   link:
     "https://www.dailylocal.com/news/local/11-west-chester-students-named-national-merit-finalists/article_42eb5986-5543-11e9-88b4-4b8d8657d5cd.html",
