@@ -9,6 +9,9 @@ html {
 strong {
   color: gold;
 }
+a {
+  color: rgb(41, 3, 180);
+}
 
 /* Blurb */
 .blurb {
