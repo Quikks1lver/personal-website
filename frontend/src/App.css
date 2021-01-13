@@ -88,6 +88,21 @@ strong {
   }
 }
 
+/* News */
+.news-container {
+  background-color: #de5825;
+  text-align: left;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0.5%;
+}
+
+/* Paragraphs */
+.paragraph {
+  margin: 5%;
+  font-size: 120%;
+}
+
 /* Terminal Text Box */
 .paragraph-container {
   background-color: #172a45;
