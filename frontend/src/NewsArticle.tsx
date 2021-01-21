@@ -26,7 +26,7 @@ const NewsArticle = ({ blurb, image, link }: newsArticleProp) => {
         onMouseEnter={() => setIsHoveredUpon(true)}
         onMouseLeave={() => setIsHoveredUpon(false)}
       >
-        <img src={image} alt="news article image" style={imageStyles}></img>
+        <img src={image} alt="news article" style={imageStyles}></img>
         <p className="paragraph" style={{ flex: 7 }}>
           <a href={link}>
             <em>
