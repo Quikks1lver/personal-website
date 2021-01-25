@@ -2,7 +2,7 @@ import React from "react";
 import MiniHeading from "./MiniHeading";
 
 import emailjs from "emailjs-com";
-import { EmailJS_INFO } from "./EmailJS_Key";
+import { EmailJS_INFO } from "./EmailJS_Keys";
 
 // Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
 
