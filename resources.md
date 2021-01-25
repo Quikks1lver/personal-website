@@ -10,3 +10,6 @@
 - [Render Components on Media Query](https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/)
 - [Type Aliases v. Interfaces in TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-aliases)
 - [Use JS to see if a link exists](https://stackoverflow.com/questions/10926880/using-javascript-to-detect-whether-the-url-exists-before-display-in-iframe#22097991)
+- [.gitignore already committed files](https://medium.com/@presh_onyee/git-how-to-ignore-a-previously-committed-file-cef5bc780f2b)
+- [EmailJS](https://www.emailjs.com/)
+- [How to use EmailJS](https://www.youtube.com/watch?v=NgWGllOjkbs)
