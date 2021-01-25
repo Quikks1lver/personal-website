@@ -9,7 +9,7 @@ frontend/.pnp
 frontend/.pnp.js
 frontend/package-lock.json
 frontend/.eslintcache
-frontend/EmailJS_Keys.ts
+frontend/Email_Keys.ts
 
 # production
 frontend/build/*
