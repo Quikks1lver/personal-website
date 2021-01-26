@@ -1,5 +1,6 @@
 .vscode
 temp.txt
+
 # holds temporary notes for me
 .DS_Store
 
@@ -9,9 +10,10 @@ frontend/.pnp
 frontend/.pnp.js
 frontend/package-lock.json
 frontend/.eslintcache
+frontend/src/EmailJS_Keys.ts
 
 # production
 frontend/build/*
 
 # for Adam
-deploy_directions.md
+deploy_directions.md.env
