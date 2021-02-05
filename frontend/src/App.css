@@ -99,7 +99,7 @@ a {
   margin-top: 1%;
   border-radius: 5px;
   height: 25px;
-  width: 15%;
+  width: fit-content;
   border-color: black;
 }
 
