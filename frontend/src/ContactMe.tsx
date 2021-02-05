@@ -4,7 +4,7 @@ import MiniHeading from "./MiniHeading";
 // Email JS
 import emailjs from "emailjs-com";
 import { EmailJS_INFO } from "./EmailJS_Keys";
-import sendNotification from "./Notifications";
+import sendNotification from "./Notification_Handlers";
 
 // Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
 
