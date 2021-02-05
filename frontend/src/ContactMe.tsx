@@ -1,8 +1,10 @@
 import React from "react";
 import MiniHeading from "./MiniHeading";
 
+// Email JS
 import emailjs from "emailjs-com";
 import { EmailJS_INFO } from "./EmailJS_Keys";
+import sendNotification from "./Notifications";
 
 // Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
 
@@ -12,6 +14,8 @@ const ContactMe = () => {
    * @param Event
    */
   const sendEmail = (e: any) => {
+    sendNotification();
+
     e.preventDefault();
 
     emailjs
@@ -37,14 +41,34 @@ const ContactMe = () => {
     <div>
       <MiniHeading heading="Contact Me" />
       <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input
+          className="contact-input"
+          type="hidden"
+          name="contact_number"
+          required={true}
+        />
+        <input
+          className="contact-input"
+          placeholder={"Name"}
+          type="text"
+          name="name"
+          required={true}
+        />
+        <input
+          className="contact-input"
+          placeholder={"Email Address"}
+          type="email"
+          name="email"
+          required={true}
+        />
+        <textarea
+          className="contact-input"
+          placeholder="Message"
+          name="message"
+          style={{ height: 60 }}
+          required={true}
+        />
+        <input className="contact-submit" type="submit" value="Send" />
       </form>
     </div>
   );
