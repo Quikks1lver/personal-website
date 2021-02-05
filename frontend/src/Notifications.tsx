@@ -1,15 +1,29 @@
-import { ReactComponent } from "*.svg";
-import { send } from "emailjs-com";
-
-import React from "react";
-
 // React notifications
 import addNotification from "react-push-notification";
-import { Options } from "react-push-notification/dist/notifications/Storage";
+import {
+  Color,
+  Options,
+} from "react-push-notification/dist/notifications/Storage";
 
-const sendNotification = () => {
+/**
+ * Sends a notification via react push notifications
+ * @param title splash heading
+ * @param subtitle shorter heading
+ * @param message blurb
+ * @param duration in milliseconds
+ */
+const sendNotification = (
+  title: string,
+  subtitle: string,
+  message: string,
+  duration: number
+) => {
   const options: Options = {
-    title: "hi",
+    title: title,
+    subtitle: subtitle,
+    message: message,
+    duration: duration,
+    theme: "darkblue",
   };
   addNotification(options);
 };
