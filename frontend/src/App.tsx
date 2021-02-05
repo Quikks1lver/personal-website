@@ -10,6 +10,9 @@ import ResponsiveHeader from "./ResponsiveHeader";
 import News from "./News";
 import { urlProp } from "./CustomTypes";
 
+// React Notifications
+import { Notifications } from "react-push-notification";
+
 const App = () => {
   const GITHUB_URL: string = "https://github.com/Quikks1lver/personal-website";
   const footerProps: urlProp = {
@@ -19,6 +22,7 @@ const App = () => {
 
   return (
     <Router basename="/">
+      <Notifications />
       <ResponsiveHeader />
 
       <Route exact path="/" component={IntroBlurb} />
