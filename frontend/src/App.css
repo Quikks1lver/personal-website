@@ -102,6 +102,11 @@ a {
   width: 15%;
   border-color: black;
 }
+@media only screen and (max-width: 425px) {
+  .contact-submit {
+    width: 18%;
+  }
+}
 
 /* Footer */
 .footer-link {
