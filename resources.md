@@ -13,3 +13,4 @@
 - [.gitignore already committed files](https://medium.com/@presh_onyee/git-how-to-ignore-a-previously-committed-file-cef5bc780f2b)
 - [EmailJS](https://www.emailjs.com/)
 - [How to use EmailJS](https://www.youtube.com/watch?v=NgWGllOjkbs)
+- [React Push Notifications](https://www.npmjs.com/package/react-push-notification)
