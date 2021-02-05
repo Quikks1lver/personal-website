@@ -24,9 +24,8 @@ const paragraphs: string[] = [
 ];
 
 const AboutMe = () => {
-  const styles: React.CSSProperties = {};
   return (
-    <div style={styles}>
+    <div>
       <MiniHeading heading={heading} />
       <TerminalTextBox paragraphs={paragraphs} />
     </div>
