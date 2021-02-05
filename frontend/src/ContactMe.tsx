@@ -10,11 +10,16 @@ import sendNotification from "./Notifications";
 
 const ContactMe = () => {
   /**
-   * Sends an email through EmailJS
+   * Sends an email through EmailJS and sends a notification to the user
    * @param Event
    */
-  const sendEmail = (e: any) => {
-    sendNotification();
+  const handleClick = (e: any) => {
+    sendNotification(
+      "Thank you!",
+      "Message Sent.",
+      "I will respond as soon as I can.",
+      10000
+    );
 
     e.preventDefault();
 
@@ -40,7 +45,7 @@ const ContactMe = () => {
   return (
     <div>
       <MiniHeading heading="Contact Me" />
-      <form className="contact-form" onSubmit={sendEmail}>
+      <form className="contact-form" onSubmit={handleClick}>
         <input
           className="contact-input"
           type="hidden"
