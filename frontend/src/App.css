@@ -69,6 +69,41 @@ a {
   border-radius: 5px;
 }
 
+/* Contact Me */
+.contact-form {
+  /* background-color: #de5825; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+.contact-input {
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: large;
+  color: #ff4800;
+  width: 40%;
+  height: 20px;
+  margin: 1%;
+  background-color: rgba(255, 245, 245, 0.927);
+}
+@media only screen and (max-width: 425px) {
+  .contact-input {
+    width: 90%;
+  }
+}
+.contact-submit {
+  font-size: medium;
+  font-family: monospace;
+  color: gold;
+  background-color: black;
+  margin-top: 1%;
+  border-radius: 5px;
+  height: 25px;
+  width: 15%;
+  border-color: black;
+}
+
 /* Footer */
 .footer-link {
   text-align: center;
