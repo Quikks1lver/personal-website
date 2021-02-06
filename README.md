@@ -1,8 +1,6 @@
 # Adam's Personal Website
 
-Hello! This website is currently a work-in-progress, and I hope to continue to add to it.
-
-_[GitHub Pages Website](https://quikks1lver.github.io/personal-website/)_
+_Hello! This [website](https://quikks1lver.github.io/personal-website/) is currently a work-in-progress, and I hope to continue to add to it._
 
 # How to Run Locally
 
