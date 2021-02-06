@@ -1,19 +1,26 @@
-import React from "react";
-import githubLogo from "./images/github_logo.png";
+import React, { useState } from "react";
+import { linkBoxProp } from "./CustomTypes";
 
-const LinkBox = () => {
-  const imageStyles: React.CSSProperties = {
-    width: "30px",
-    height: "30px",
-    marginLeft: "10%",
-    marginRight: "3%",
-    alignSelf: "center",
+const LinkBox = ({ url, image, siteName }: linkBoxProp) => {
+  const hoveredStyle: React.CSSProperties = {
+    backgroundColor: "#6e17cb",
   };
 
+  const [isHoveredUpon, setIsHoveredUpon] = useState(false);
+
   return (
-    <a className="link-box" href="https://github.com/Quikks1lver">
-      <img src={githubLogo} alt="news article" style={imageStyles}></img>
-      <h3 style={{ textAlign: "end" }}>GitHub</h3>
+    <a
+      onMouseEnter={() => setIsHoveredUpon(true)}
+      onMouseLeave={() => setIsHoveredUpon(false)}
+      className="link-box"
+      style={isHoveredUpon ? hoveredStyle : undefined}
+      href={url}
+    >
+      <img
+        src={image}
+        alt={`Link to Adam's ${siteName}`}
+        className="link-box-image"
+      ></img>
     </a>
   );
 };
