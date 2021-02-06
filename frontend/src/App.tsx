@@ -5,9 +5,9 @@ import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import IntroBlurb from "./IntroBlurb";
+import News from "./News";
 import Projects from "./Projects";
 import ResponsiveHeader from "./ResponsiveHeader";
-import News from "./News";
 import { urlProp } from "./CustomTypes";
 
 // React Notifications
