@@ -10,7 +10,7 @@ strong {
   color: gold;
 }
 a {
-  color: #de5825;
+  color: #391fe4;
 }
 
 /* Blurb */
@@ -125,7 +125,21 @@ a {
   }
 }
 
+/* LinkBox */
+.link-box {
+  border-radius: 13px;
+  background-color: rgba(255, 245, 245, 0.927);
+  color: #172a45;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 10%;
+}
+
 /* News */
+.article-text-color {
+  color: #de5825;
+}
 .news-container {
   background-color: #172a45;
   text-align: left;
