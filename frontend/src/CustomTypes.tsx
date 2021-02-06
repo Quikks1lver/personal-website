@@ -4,6 +4,12 @@ export interface headerButtonProp {
   isHomeButton?: boolean;
 }
 
+export interface linkBoxProp {
+  url: string;
+  siteName: string;
+  image: string;
+}
+
 export interface urlProp {
   url: string;
   hyperlinkName: string;
