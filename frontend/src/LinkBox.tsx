@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { linkBoxProp } from "./CustomTypes";
 
+/**
+ * A neat, round box to send to a hyperlink, only shows an image
+ * @param param0 linkbox prop
+ */
 const LinkBox = ({ url, image, siteName }: linkBoxProp) => {
   const hoveredStyle: React.CSSProperties = {
     backgroundColor: "#6e17cb",
