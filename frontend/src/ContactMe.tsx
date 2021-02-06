@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MiniHeading from "./MiniHeading";
 
 // Email JS
@@ -9,6 +9,12 @@ import sendNotification from "./Notification_Handlers";
 // Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
 
 const ContactMe = () => {
+  const [isHoveredUpon, setIsHoveredUpon] = useState(false);
+  const hoveredStyle: React.CSSProperties = {
+    backgroundColor: "gold",
+    color: "black",
+  };
+
   /**
    * Sends an email through EmailJS and sends a notification to the user
    * @param Event
@@ -74,7 +80,14 @@ const ContactMe = () => {
           style={{ height: 60 }}
           required={true}
         />
-        <input className="contact-submit" type="submit" value="Send" />
+        <input
+          onMouseEnter={() => setIsHoveredUpon(true)}
+          onMouseLeave={() => setIsHoveredUpon(false)}
+          className="contact-submit"
+          type="submit"
+          value="Send"
+          style={isHoveredUpon ? hoveredStyle : undefined}
+        />
       </form>
     </div>
   );

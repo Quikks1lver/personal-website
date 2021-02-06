@@ -1,11 +1,22 @@
-import React from "react";
+import React, { ReactType, useState } from "react";
 import "./App.css";
 import { urlProp } from "./CustomTypes";
 
 const Footer = ({ url, hyperlinkName }: urlProp) => {
+  const [isHoveredUpon, setIsHoveredUpon] = useState(false);
+  const hoveredStyle: React.CSSProperties = {
+    color: "#de5825",
+  };
+
   return (
     <div>
-      <a href={url} className="footer-link">
+      <a
+        onMouseEnter={() => setIsHoveredUpon(true)}
+        onMouseLeave={() => setIsHoveredUpon(false)}
+        href={url}
+        className="footer-link"
+        style={isHoveredUpon ? hoveredStyle : undefined}
+      >
         <p>
           <em>{hyperlinkName}</em>
         </p>
