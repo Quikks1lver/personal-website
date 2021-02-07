@@ -6,6 +6,7 @@ import TerminalTextBox from "./TerminalTextBox";
 // Images
 import githubLogo from "./images/github_logo.png";
 import linkedInLogo from "./images/linkedin_logo.png";
+import emailLogo from "./images/email_logo.png";
 
 const heading: string = "Welcome to my website!";
 const paragraphs: string[] = [
@@ -26,6 +27,11 @@ const IntroBlurb = () => {
       <MiniHeading heading={heading} />
       <TerminalTextBox paragraphs={paragraphs} />
       <div className="link-box-container">
+        <LinkBox
+          url="mailto:fernadam8@gmail.com"
+          siteName="Email"
+          image={emailLogo}
+        />
         <LinkBox
           url="https://github.com/Quikks1lver"
           siteName="GitHub"
