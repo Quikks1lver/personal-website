@@ -14,6 +14,12 @@ const ContactMe = () => {
     backgroundColor: "gold",
     color: "black",
   };
+  const citeStyle: React.CSSProperties = {
+    textAlign: "center",
+    color: "gray",
+    marginTop: "2%",
+    marginBottom: "0%",
+  };
 
   /**
    * Sends an email through EmailJS and sends a notification to the user
@@ -89,6 +95,9 @@ const ContactMe = () => {
           style={isHoveredUpon ? hoveredStyle : undefined}
         />
       </form>
+      <h5 style={citeStyle}>
+        <em>Powered by EmailJS</em>
+      </h5>
     </div>
   );
 };
