@@ -19,6 +19,8 @@ const LinkBox = ({ url, image, siteName }: linkBoxProp) => {
       className="link-box"
       style={isHoveredUpon ? hoveredStyle : undefined}
       href={url}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <img
         src={image}
