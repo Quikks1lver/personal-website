@@ -16,6 +16,8 @@ const Footer = ({ url, hyperlinkName }: urlProp) => {
         href={url}
         className="footer-link"
         style={isHoveredUpon ? hoveredStyle : undefined}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <p>
           <em>{hyperlinkName}</em>
