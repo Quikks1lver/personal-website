@@ -28,7 +28,12 @@ const NewsArticle = ({ blurb, image, link }: newsArticleProp) => {
       >
         <img src={image} alt="news article" style={imageStyles}></img>
         <p className="paragraph" style={{ flex: 7 }}>
-          <a className="article-text-color" href={link}>
+          <a
+            className="article-text-color"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <em>
               {" > "}
               {blurb}
