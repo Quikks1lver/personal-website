@@ -14,3 +14,4 @@
 - [EmailJS](https://www.emailjs.com/)
 - [How to use EmailJS](https://www.youtube.com/watch?v=NgWGllOjkbs)
 - [React Push Notifications](https://www.npmjs.com/package/react-push-notification)
+- [Open Links in another Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)
