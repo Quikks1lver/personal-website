@@ -57,7 +57,6 @@ const ContactMe = () => {
   return (
     <div>
       <MiniHeading heading="Contact Me" />
-      <h3 style={{ textAlign: "center" }}>Feel free to shoot me a message!</h3>
       <form className="contact-form" onSubmit={handleClick}>
         <input
           className="contact-input"
