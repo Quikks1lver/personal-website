@@ -1,11 +1,11 @@
-import React, { ReactType, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { urlProp } from "./CustomTypes";
 
 const Footer = ({ url, hyperlinkName }: urlProp) => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
-    color: "#de5825",
+    color: "rgba(255, 245, 245, 0.927)",
   };
 
   return (
