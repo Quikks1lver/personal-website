@@ -1,28 +1,24 @@
 /*
-Modified color scheme from Canva.com 
-#021C1E blue black
-#004445 cadet blue
-#2C7873 rain
-#6FB98F greenery
+Modified color scheme from Canva.com; original is below.
+  #021C1E blue black
+  #004445 cadet blue
+  #2C7873 rain
+  #6FB98F greenery
 */
 
 /* Entire App */
 html {
-  background-image: linear-gradient(#66b3ad, #2c7873);
+  /* background-color: #918076; */
+  background-color: #81a19f;
   height: 100%;
   font-family: monospace;
   color: rgba(255, 245, 245, 0.927);
-}
-@media only screen and (max-width: 425px) {
-  html {
-    background-image: linear-gradient(#6e17cb, #6e17cb);
-  }
 }
 strong {
   color: #004445;
 }
 a {
-  color: #391fe4;
+  color: #004445;
 }
 
 /* Blurb */
@@ -33,8 +29,9 @@ a {
 
 /* Buttons */
 .normal-button {
-  background-color: gold;
-  color: black;
+  background-color: #004445;
+  color: #6fb98f;
+  font-style: oblique;
   border: none;
   font-size: 16px;
   font-family: monospace;
@@ -44,8 +41,9 @@ a {
   flex: 1;
 }
 .hovered-button {
-  background-color: black;
-  color: gold;
+  background-color: #669693;
+  color: #004445;
+  font-style: oblique;
   border: none;
   font-size: 16px;
   font-family: monospace;
@@ -64,7 +62,7 @@ a {
 }
 .hamburger-button {
   background-color: rgba(255, 255, 255, 0.605);
-  border-color: gold;
+  border-color: #004445;
   width: 10%;
   height: 30px;
   display: flex;
@@ -73,7 +71,7 @@ a {
 }
 .hamburger-button-open {
   background-color: transparent;
-  border-color: gold;
+  border-color: #004445;
   width: 10%;
   height: 30px;
   display: flex;
@@ -91,7 +89,7 @@ a {
 .contact-input {
   background-color: rgba(255, 245, 245, 0.927);
   border-radius: 5px;
-  color: #ff4800;
+  color: #004445;
   font-family: monospace;
   height: 20px;
   font-size: large;
@@ -106,8 +104,8 @@ a {
 .contact-submit {
   font-size: medium;
   font-family: monospace;
-  color: gold;
-  background-color: black;
+  color: rgba(255, 245, 245, 0.927);
+  background-color: #004445;
   margin-top: 1%;
   border-radius: 5px;
   height: 25px;
@@ -119,7 +117,7 @@ a {
 .footer-link {
   text-align: center;
   bottom: 5%;
-  color: gold;
+  color: #172a45;
   font: x-small;
   font-family: monospace;
   margin: 1%;
@@ -164,7 +162,7 @@ a {
 
 /* News */
 .article-text-color {
-  color: #de5825;
+  color: rgba(255, 245, 245, 0.927);
 }
 .news-container {
   background-color: #172a45;
@@ -174,7 +172,7 @@ a {
   margin: 0.5%;
 }
 .hovered-news-container {
-  background-color: gold;
+  background-color: #669693;
   text-align: left;
   width: 50%;
   border-radius: 10px;
