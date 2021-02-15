@@ -11,8 +11,8 @@ import sendNotification from "./Notification_Handlers";
 const ContactMe = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
-    backgroundColor: "gold",
-    color: "black",
+    backgroundColor: "rgba(255, 245, 245, 0.927)",
+    color: "#669693",
   };
   const citeStyle: React.CSSProperties = {
     textAlign: "center",
