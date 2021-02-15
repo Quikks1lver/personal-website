@@ -1,7 +1,14 @@
+/*
+Modified color scheme from Canva.com 
+#021C1E blue black
+#004445 cadet blue
+#2C7873 rain
+#6FB98F greenery
+*/
+
 /* Entire App */
 html {
-  /* background-image: linear-gradient(#09c6f9, #045de9); */
-  background-image: linear-gradient(#6e17cb, #391fe4);
+  background-image: linear-gradient(#66b3ad, #2c7873);
   height: 100%;
   font-family: monospace;
   color: rgba(255, 245, 245, 0.927);
@@ -12,7 +19,7 @@ html {
   }
 }
 strong {
-  color: gold;
+  color: #004445;
 }
 a {
   color: #391fe4;
