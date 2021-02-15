@@ -8,11 +8,10 @@ Modified color scheme from Canva.com; original is below.
 
 /* Entire App */
 html {
-  /* background-color: #918076; */
-  background-color: #81a19f;
+  background-color: #81b4b4;
   height: 100%;
   font-family: monospace;
-  color: rgba(255, 245, 245, 0.927);
+  color: rgba(255, 245, 245, 0.959);
 }
 strong {
   color: #004445;
@@ -165,7 +164,7 @@ a {
   color: rgba(255, 245, 245, 0.927);
 }
 .news-container {
-  background-color: #172a45;
+  background-color: #004445;
   text-align: left;
   width: 50%;
   border-radius: 10px;
@@ -187,7 +186,7 @@ a {
 
 /* Terminal Text Box */
 .paragraph-container {
-  background-color: #172a45;
+  background-color: #004445;
   text-align: left;
   width: 50%;
   border-radius: 10px;
