@@ -7,7 +7,7 @@ import { linkBoxProp } from "./CustomTypes";
  */
 const LinkBox = ({ url, image, siteName }: linkBoxProp) => {
   const hoveredStyle: React.CSSProperties = {
-    backgroundColor: "#f8f5ec",
+    backgroundColor: "#de602546",
   };
 
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);

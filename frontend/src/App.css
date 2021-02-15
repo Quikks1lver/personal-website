@@ -129,7 +129,7 @@ a {
 /* LinkBox */
 .link-box {
   border-radius: 11px;
-  background-color: #de602552;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   margin-left: 1%;
@@ -157,7 +157,7 @@ a {
 }
 .news-container {
   border-style: groove;
-  border-color: #de5f25;
+  border-color: #de60251e;
   text-align: left;
   width: 50%;
   border-radius: 10px;
@@ -179,9 +179,8 @@ a {
 
 /* Terminal Text Box */
 .paragraph-container {
-  border-style: dotted;
-  border-color: #de5f25;
-  /* background-color: #de5f25; */
+  border-style: groove;
+  border-color: #de60251e;
   text-align: left;
   width: 55%;
   border-radius: 10px;
