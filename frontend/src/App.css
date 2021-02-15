@@ -1,23 +1,15 @@
-/*
-Modified color scheme from Canva.com; original is below.
-  #021C1E blue black
-  #004445 cadet blue
-  #2C7873 rain
-  #6FB98F greenery
-*/
-
 /* Entire App */
 html {
-  background-color: #81b4b4;
+  background-color: #faf9f5;
   height: 100%;
   font-family: monospace;
-  color: rgba(255, 245, 245, 0.959);
+  color: rgb(0, 0, 0);
 }
 strong {
-  color: #004445;
+  color: #de5f25;
 }
 a {
-  color: #004445;
+  color: #de5f25;
 }
 
 /* Blurb */
@@ -28,8 +20,8 @@ a {
 
 /* Buttons */
 .normal-button {
-  background-color: #004445;
-  color: #6fb98f;
+  background-color: transparent;
+  color: #de5f25;
   font-style: oblique;
   border: none;
   font-size: 16px;
@@ -40,8 +32,8 @@ a {
   flex: 1;
 }
 .hovered-button {
-  background-color: #669693;
-  color: #004445;
+  background-color: #de602552;
+  color: black;
   font-style: oblique;
   border: none;
   font-size: 16px;
@@ -60,8 +52,8 @@ a {
   margin: 1%;
 }
 .hamburger-button {
-  background-color: rgba(255, 255, 255, 0.605);
-  border-color: #004445;
+  background-color: transparent;
+  border-color: #de5f25;
   width: 10%;
   height: 30px;
   display: flex;
@@ -69,8 +61,8 @@ a {
   border-radius: 5px;
 }
 .hamburger-button-open {
-  background-color: transparent;
-  border-color: #004445;
+  background-color: rgb(201, 109, 109);
+  border-color: #de5f25;
   width: 10%;
   height: 30px;
   display: flex;
@@ -88,7 +80,7 @@ a {
 .contact-input {
   background-color: rgba(255, 245, 245, 0.927);
   border-radius: 5px;
-  color: #004445;
+  color: #de5f25;
   font-family: monospace;
   height: 20px;
   font-size: large;
@@ -104,7 +96,7 @@ a {
   font-size: medium;
   font-family: monospace;
   color: rgba(255, 245, 245, 0.927);
-  background-color: #004445;
+  background-color: #de5f25;
   margin-top: 1%;
   border-radius: 5px;
   height: 25px;
@@ -116,7 +108,7 @@ a {
 .footer-link {
   text-align: center;
   bottom: 5%;
-  color: #172a45;
+  color: black;
   font: x-small;
   font-family: monospace;
   margin: 1%;
@@ -137,7 +129,7 @@ a {
 /* LinkBox */
 .link-box {
   border-radius: 11px;
-  background-color: rgba(255, 255, 255, 0.605);
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   margin-left: 1%;
@@ -161,17 +153,18 @@ a {
 
 /* News */
 .article-text-color {
-  color: rgba(255, 245, 245, 0.927);
+  color: #de5f25;
 }
 .news-container {
-  background-color: #004445;
+  border-style: groove;
+  border-color: #de60251e;
   text-align: left;
   width: 50%;
   border-radius: 10px;
   margin: 0.5%;
 }
 .hovered-news-container {
-  background-color: #669693;
+  background-color: #de602552;
   text-align: left;
   width: 50%;
   border-radius: 10px;
@@ -186,17 +179,18 @@ a {
 
 /* Terminal Text Box */
 .paragraph-container {
-  background-color: #004445;
+  border-style: groove;
+  border-color: #de60251e;
+  font-size: medium;
   text-align: left;
   width: 50%;
   border-radius: 10px;
   margin: 0.5%;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1160px) {
   .paragraph-container {
-    background-color: #172a45;
-    text-align: left;
-    width: 100%;
-    border-radius: 10px;
+    font-size: small;
+    width: 95%;
+    margin: 0%;
   }
 }
