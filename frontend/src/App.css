@@ -1,11 +1,3 @@
-/*
-Modified color scheme from Canva.com; original is below.
-  #021C1E blue black
-  #004445 cadet blue
-  #2C7873 rain
-  #6FB98F greenery
-*/
-/* rgba(255, 245, 245, 0.959) */
 /* Entire App */
 html {
   background-color: #faf9f5;
@@ -191,7 +183,7 @@ a {
   border-color: #de5f25;
   /* background-color: #de5f25; */
   text-align: left;
-  width: 70%;
+  width: 55%;
   border-radius: 10px;
   margin: 0.5%;
 }
