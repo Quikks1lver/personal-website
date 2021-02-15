@@ -12,7 +12,7 @@ const ContactMe = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
     backgroundColor: "rgba(255, 245, 245, 0.927)",
-    color: "#669693",
+    color: "#de5f25",
   };
 
   /**
