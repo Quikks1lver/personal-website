@@ -181,15 +181,16 @@ a {
 .paragraph-container {
   border-style: groove;
   border-color: #de60251e;
+  font-size: medium;
   text-align: left;
-  width: 55%;
+  width: 50%;
   border-radius: 10px;
   margin: 0.5%;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1160px) {
   .paragraph-container {
-    text-align: left;
-    width: 100%;
-    border-radius: 10px;
+    font-size: small;
+    width: 95%;
+    margin: 0%;
   }
 }
