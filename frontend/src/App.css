@@ -9,7 +9,7 @@ strong {
   color: #de5f25;
 }
 a {
-  color: #de5f25;
+  color: transparent;
 }
 
 /* Blurb */
@@ -44,17 +44,22 @@ a {
   flex: 1;
 }
 .home-button {
-  cursor: pointer;
-  width: 95px;
-  height: 65px;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  font-family: monospace;
+  border-radius: 10px;
   border-style: groove;
-  border-color: transparent;
-  border-radius: 20%;
-  image-rendering: optimizeQuality;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-top: 10%;
-  background: url(./images/bigA.png) no-repeat;
+  border-color: #258bde03;
+  padding: 17px;
+  display: flex;
+  flex: 1;
+}
+.home-button strong {
+  color: #629ccc;
+}
+.home-button a {
+  color: transparent;
 }
 .hamburger-button {
   background-color: transparent;
