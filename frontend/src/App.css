@@ -45,11 +45,16 @@ a {
 }
 .home-button {
   cursor: pointer;
-  border: none;
-  width: 90px;
-  height: 95px;
-  background: url(./images/adam_hobbes.png) no-repeat;
-  margin: 1%;
+  width: 95px;
+  height: 65px;
+  border-style: groove;
+  border-color: transparent;
+  border-radius: 20%;
+  image-rendering: optimizeQuality;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  background: url(./images/bigA.png) no-repeat;
 }
 .hamburger-button {
   background-color: transparent;
