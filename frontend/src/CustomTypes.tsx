@@ -1,5 +1,5 @@
 export interface headerButtonProp {
-  buttonName?: string;
+  buttonName: string;
   toPath: string;
   isHomeButton?: boolean;
 }
