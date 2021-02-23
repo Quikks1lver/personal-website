@@ -24,7 +24,8 @@ const HeaderButton = ({
               : "normal-button"
           }
         >
-          {buttonName?.valueOf()}
+          {isHomeButton && <strong>{buttonName.valueOf()}</strong>}
+          {!isHomeButton && buttonName.valueOf()}
         </button>
       </Link>
     </div>
