@@ -11,13 +11,13 @@ const Header = () => {
       <HeaderButton buttonName="About Me" toPath="aboutme" />
       <Filler flexSize={1} />
 
-      <HeaderButton buttonName="Projects" toPath="projects" />
+      <HeaderButton buttonName="Cool Projects" toPath="projects" />
       <Filler flexSize={1} />
 
       <HeaderButton toPath="" buttonName="{A}" isHomeButton={true} />
 
       <Filler flexSize={1} />
-      <HeaderButton buttonName="News Links" toPath="news" />
+      <HeaderButton buttonName="In the News" toPath="news" />
 
       <Filler flexSize={1} />
       <HeaderButton buttonName="Contact Me" toPath="contactme" />
