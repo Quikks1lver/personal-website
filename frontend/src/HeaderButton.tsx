@@ -9,10 +9,16 @@ const HeaderButton = ({
   isHomeButton,
 }: headerButtonProp) => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
+  const linkColor: React.CSSProperties = {
+    color: "transparent",
+  };
 
   return (
     <div>
-      <Link to={`/${toPath}`}>
+      <Link
+        to={`/${toPath}`}
+        className={isHomeButton ? "link-color" : undefined}
+      >
         <button
           onMouseEnter={() => setIsHoveredUpon(true)}
           onMouseLeave={() => setIsHoveredUpon(false)}

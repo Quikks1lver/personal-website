@@ -9,7 +9,7 @@ strong {
   color: #de5f25;
 }
 a {
-  color: transparent;
+  color: #de5f25;
 }
 
 /* Blurb */
@@ -43,6 +43,9 @@ a {
   display: flex;
   flex: 1;
 }
+.link-color {
+  color: transparent;
+}
 .home-button {
   background-color: transparent;
   border: none;
@@ -57,9 +60,6 @@ a {
 }
 .home-button strong {
   color: #629ccc;
-}
-.home-button a {
-  color: transparent;
 }
 .hamburger-button {
   background-color: transparent;
