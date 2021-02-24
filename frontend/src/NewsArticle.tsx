@@ -4,16 +4,8 @@ import { newsArticleProp } from "./CustomTypes";
 import Filler from "./Filler";
 import { useMediaQuery } from "./useMediaQuery";
 
-const NewsArticle = ({ blurb, image, link }: newsArticleProp) => {
+const NewsArticle = ({ blurb, link }: newsArticleProp) => {
   let renderFillers = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
-
-  const imageStyles: React.CSSProperties = {
-    flex: 1,
-    width: "50px",
-    height: "70px",
-    margin: "1%",
-    alignSelf: "center",
-  };
 
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
 
@@ -22,11 +14,10 @@ const NewsArticle = ({ blurb, image, link }: newsArticleProp) => {
       {!renderFillers && <Filler flexSize={1} />}
       <div
         className={isHoveredUpon ? "hovered-news-container" : "news-container"}
-        style={{ display: "flex", flexDirection: "row", flex: 4 }}
+        style={{ display: "flex", flexDirection: "row", flex: 1.5 }}
         onMouseEnter={() => setIsHoveredUpon(true)}
         onMouseLeave={() => setIsHoveredUpon(false)}
       >
-        <img src={image} alt="news article" style={imageStyles}></img>
         <p className="paragraph" style={{ flex: 7 }}>
           <a
             className="article-text-color"

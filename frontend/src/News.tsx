@@ -21,13 +21,7 @@ const News = () => {
       };
 
       if (success) {
-        output.push(
-          <NewsArticle
-            blurb={article.blurb}
-            image={article.image}
-            link={article.link}
-          />
-        );
+        output.push(<NewsArticle blurb={article.blurb} link={article.link} />);
       }
     });
 
