@@ -26,7 +26,7 @@ const NewsArticle = ({ blurb, link }: newsArticleProp) => {
             rel="noopener noreferrer"
           >
             <em>
-              {" > "}
+              {" 📣 > "}
               {blurb}
             </em>
           </a>
