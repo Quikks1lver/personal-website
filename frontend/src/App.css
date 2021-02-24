@@ -169,16 +169,14 @@ a {
   border-style: groove;
   border-color: #de60251e;
   text-align: left;
-  width: 50%;
   border-radius: 10px;
-  margin: 0.5%;
+  margin: 0.3%;
 }
 .hovered-news-container {
   background-color: #de602552;
   text-align: left;
-  width: 50%;
   border-radius: 10px;
-  margin: 0.5%;
+  margin: 0.3%;
 }
 
 /* Paragraphs */
