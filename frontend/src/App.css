@@ -9,7 +9,7 @@ strong {
   color: #de5f25;
 }
 a {
-  color: transparent;
+  color: #de5f25;
 }
 
 /* Blurb */
@@ -43,6 +43,9 @@ a {
   display: flex;
   flex: 1;
 }
+.link-color {
+  color: transparent;
+}
 .home-button {
   background-color: transparent;
   border: none;
@@ -57,9 +60,6 @@ a {
 }
 .home-button strong {
   color: #629ccc;
-}
-.home-button a {
-  color: transparent;
 }
 .hamburger-button {
   background-color: transparent;
@@ -169,16 +169,14 @@ a {
   border-style: groove;
   border-color: #de60251e;
   text-align: left;
-  width: 50%;
   border-radius: 10px;
-  margin: 0.5%;
+  margin: 0.3%;
 }
 .hovered-news-container {
   background-color: #de602552;
   text-align: left;
-  width: 50%;
   border-radius: 10px;
-  margin: 0.5%;
+  margin: 0.3%;
 }
 
 /* Paragraphs */
@@ -197,7 +195,7 @@ a {
   border-radius: 10px;
   margin: 0.5%;
 }
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 767px) {
   .paragraph-container {
     font-size: small;
     width: 95%;
