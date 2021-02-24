@@ -17,6 +17,5 @@ export interface urlProp {
 
 export interface newsArticleProp {
   blurb: string;
-  image: string;
   link: string;
 }
