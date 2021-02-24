@@ -195,7 +195,7 @@ a {
   border-radius: 10px;
   margin: 0.5%;
 }
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 767px) {
   .paragraph-container {
     font-size: small;
     width: 95%;
