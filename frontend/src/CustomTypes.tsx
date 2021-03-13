@@ -22,4 +22,5 @@ export interface newsArticleProp {
 
 export interface projectProp {
   picture: string;
+  route: string;
 }
