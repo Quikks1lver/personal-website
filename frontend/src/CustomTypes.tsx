@@ -19,3 +19,7 @@ export interface newsArticleProp {
   blurb: string;
   link: string;
 }
+
+export interface projectProp {
+  picture: string;
+}
