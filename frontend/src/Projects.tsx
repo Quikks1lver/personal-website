@@ -1,7 +1,7 @@
 import React from "react";
 import MiniHeading from "./MiniHeading";
 
-import IndivualProjectTile from "./IndivualProjectTile";
+import IndivualProjectTile from "./IndividualProjectTile";
 
 import battleship_icon from "./images/battleship_icon.png";
 import justice_bytes_icon from "./images/justice_bytes_icon.png";
