@@ -18,11 +18,17 @@ const Projects = () => {
         className="project-tiles-container"
         style={{ justifyContent: "center" }}
       >
-        <IndivualProjectTile picture={justice_bytes_icon} />
-        <IndivualProjectTile picture={pizza_icon} />
-        <IndivualProjectTile picture={visa_icon} />
-        <IndivualProjectTile picture={movie_icon} />
-        <IndivualProjectTile picture={battleship_icon} />
+        <IndivualProjectTile
+          picture={justice_bytes_icon}
+          route="more/justice-bytes"
+        />
+        <IndivualProjectTile picture={pizza_icon} route="more/pizza-popper" />
+        <IndivualProjectTile picture={visa_icon} route="more/visa-bop" />
+        <IndivualProjectTile picture={movie_icon} route="more/imdb" />
+        <IndivualProjectTile
+          picture={battleship_icon}
+          route="more/battleship"
+        />
       </div>
     </div>
   );
