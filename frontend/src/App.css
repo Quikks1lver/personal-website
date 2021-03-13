@@ -216,6 +216,19 @@ a {
     /* : center; */
   }
 }
+.projects-more-back-button {
+  background-color: transparent;
+  border-color: #629cccaa;
+  border-radius: 15px;
+  border-style: groove;
+  color: #de5f25;
+  font-family: monospace;
+  font-size: 16px;
+  font-style: oblique;
+  height: 15%;
+  width: fit-content;
+  margin: 0%;
+}
 
 /* Terminal Text Box */
 .paragraph-container {
