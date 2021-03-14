@@ -25,7 +25,7 @@ const App = () => {
   const GITHUB_URL: string = "https://github.com/Quikks1lver/personal-website";
   const footerProps: urlProp = {
     url: GITHUB_URL,
-    hyperlinkName: "Developed with 💛 by Adam",
+    hyperlinkName: "Developed with 💙 by Adam",
   };
 
   return (
