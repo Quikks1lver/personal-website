@@ -1,7 +1,7 @@
 import React from "react";
 import MiniHeading from "./MiniHeading";
 
-import IndivualProjectTile from "./IndividualProjectTile";
+import IndividualProjectTile from "./IndividualProjectTile";
 
 import battleship_icon from "./images/battleship_icon.png";
 import justice_bytes_icon from "./images/justice_bytes_icon.png";
@@ -18,27 +18,27 @@ const Projects = () => {
         className="project-tiles-container"
         style={{ justifyContent: "center" }}
       >
-        <IndivualProjectTile
+        <IndividualProjectTile
           picture={justice_bytes_icon}
           route="more/justice-bytes"
           altText="Justice Bytes"
         />
-        <IndivualProjectTile
+        <IndividualProjectTile
           picture={pizza_icon}
           route="more/pizza-popper"
           altText="Pizza Popper"
         />
-        <IndivualProjectTile
+        <IndividualProjectTile
           picture={visa_icon}
           route="more/visa-bop"
           altText="Visa Bop"
         />
-        <IndivualProjectTile
+        <IndividualProjectTile
           picture={movie_icon}
           route="more/imdb"
           altText="IMDB Parsing"
         />
-        <IndivualProjectTile
+        <IndividualProjectTile
           picture={battleship_icon}
           route="more/battleship"
           altText="Battleship"

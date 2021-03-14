@@ -13,7 +13,7 @@ import { useMediaQuery } from "./useMediaQuery";
  * @param param0 projectProp, containing a picture string, a route within the app, and alt text
  * @returns
  */
-const IndivualProjectTile = ({ picture, route, altText }: projectProp) => {
+const IndividualProjectTile = ({ picture, route, altText }: projectProp) => {
   const isIpadOrSmaller = useMediaQuery(IPAD_WIDTH_THRESHOLD);
   const isiPhoneLengthWise = useMediaQuery(IPHONE_VERTICAL_WIDTH_THRESHOLD);
 
@@ -39,4 +39,4 @@ const IndivualProjectTile = ({ picture, route, altText }: projectProp) => {
   );
 };
 
-export default IndivualProjectTile;
+export default IndividualProjectTile;
