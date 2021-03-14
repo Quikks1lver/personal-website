@@ -12,7 +12,7 @@ import visa_icon from "./images/visa_icon.png";
 const Projects = () => {
   return (
     <div>
-      <MiniHeading heading={"Projects"} />
+      <MiniHeading heading={"Cool Projects"} />
 
       <div
         className="project-tiles-container"

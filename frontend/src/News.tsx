@@ -30,7 +30,7 @@ const News = () => {
 
   return (
     <div>
-      <MiniHeading heading={"News Links"} />
+      <MiniHeading heading={"In the News"} />
       {displayArticles()}
     </div>
   );
