@@ -190,12 +190,14 @@ a {
   width: 17vw;
   height: 23vh;
   border: solid;
+  z-index: -1;
 }
 @media only screen and (max-width: 767px) {
   .project-icon {
     width: 30vw;
     height: 25vh;
     border: transparent;
+    z-index: -1;
   }
 }
 .project-tiles-container {
