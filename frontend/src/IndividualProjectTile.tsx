@@ -42,7 +42,7 @@ const IndividualProjectTile = ({ picture, route, altText }: projectProp) => {
     >
       <Link to={route}>
         <h2 style={overlayTextStyle}> {isHoveredUpon && altText}</h2>
-        <span style={isHoveredUpon ? { filter: "blur(5px)" } : undefined}>
+        <span style={isHoveredUpon ? { filter: "blur(8px)" } : undefined}>
           <img
             style={determineStyle()}
             className="project-icon"
