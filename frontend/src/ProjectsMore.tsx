@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const ProjectsMore = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
-    color: "blue",
+    color: "#629ccc",
   };
 
   return (
