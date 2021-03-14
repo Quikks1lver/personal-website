@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 /**
@@ -6,10 +6,20 @@ import { Link } from "react-router-dom";
  * @returns
  */
 const ProjectsMore = () => {
+  const [isHoveredUpon, setIsHoveredUpon] = useState(false);
+  const hoveredStyle: React.CSSProperties = {
+    color: "blue",
+  };
+
   return (
     <div className="projects-more-back-button-container">
       <Link to="/projects">
-        <button className="projects-more-back-button">{` ↩ `}</button>
+        <button
+          style={isHoveredUpon ? hoveredStyle : undefined}
+          onMouseEnter={() => setIsHoveredUpon(true)}
+          onMouseLeave={() => setIsHoveredUpon(false)}
+          className="projects-more-back-button"
+        >{` ↩ `}</button>
       </Link>
     </div>
   );
