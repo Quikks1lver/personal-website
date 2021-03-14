@@ -213,6 +213,13 @@ a {
     margin-top: 1%;
   }
 }
+.projects-more-back-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
 .projects-more-back-button {
   background-color: transparent;
   border: none;
@@ -223,6 +230,19 @@ a {
   height: 15%;
   width: fit-content;
   margin: 0%;
+}
+@media only screen and (max-width: 767px) {
+  .projects-more-back-button {
+    background-color: transparent;
+    border: none;
+    color: #de5f25;
+    font-family: monospace;
+    font-size: 40px;
+    font-style: oblique;
+    height: 15%;
+    width: fit-content;
+    margin: 0%;
+  }
 }
 
 /* Terminal Text Box */
