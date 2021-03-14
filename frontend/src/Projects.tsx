@@ -21,13 +21,27 @@ const Projects = () => {
         <IndivualProjectTile
           picture={justice_bytes_icon}
           route="more/justice-bytes"
+          altText="Justice Bytes"
         />
-        <IndivualProjectTile picture={pizza_icon} route="more/pizza-popper" />
-        <IndivualProjectTile picture={visa_icon} route="more/visa-bop" />
-        <IndivualProjectTile picture={movie_icon} route="more/imdb" />
+        <IndivualProjectTile
+          picture={pizza_icon}
+          route="more/pizza-popper"
+          altText="Pizza Popper"
+        />
+        <IndivualProjectTile
+          picture={visa_icon}
+          route="more/visa-bop"
+          altText="Visa Bop"
+        />
+        <IndivualProjectTile
+          picture={movie_icon}
+          route="more/imdb"
+          altText="IMDB Parsing"
+        />
         <IndivualProjectTile
           picture={battleship_icon}
           route="more/battleship"
+          altText="Battleship"
         />
       </div>
     </div>
