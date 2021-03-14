@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   IPAD_WIDTH_THRESHOLD,
@@ -16,7 +16,16 @@ import { useMediaQuery } from "./useMediaQuery";
 const IndividualProjectTile = ({ picture, route, altText }: projectProp) => {
   const isIpadOrSmaller = useMediaQuery(IPAD_WIDTH_THRESHOLD);
   const isiPhoneLengthWise = useMediaQuery(IPHONE_VERTICAL_WIDTH_THRESHOLD);
+  const [isHoveredUpon, setIsHoveredUpon] = useState(false);
 
+  const overlayTextStyle: React.CSSProperties = {
+    position: "relative",
+    marginBottom: "0%",
+    textAlign: "center",
+    color: "#11FfEE",
+    top: "90px",
+    zIndex: 1,
+  };
   const determineStyle = (): React.CSSProperties => {
     if (isIpadOrSmaller) {
       return isiPhoneLengthWise
@@ -26,14 +35,21 @@ const IndividualProjectTile = ({ picture, route, altText }: projectProp) => {
   };
 
   return (
-    <div style={{ marginLeft: "1%", marginRight: "1%" }}>
+    <div
+      style={{ marginLeft: "1%", marginRight: "1%" }}
+      onMouseEnter={() => setIsHoveredUpon(true)}
+      onMouseLeave={() => setIsHoveredUpon(false)}
+    >
       <Link to={route}>
-        <img
-          style={determineStyle()}
-          className="project-icon"
-          src={picture}
-          alt={altText}
-        />
+        <h2 style={overlayTextStyle}> {isHoveredUpon && altText}</h2>
+        <span style={isHoveredUpon ? { filter: "blur(5px)" } : undefined}>
+          <img
+            style={determineStyle()}
+            className="project-icon"
+            src={picture}
+            alt={altText}
+          />
+        </span>
       </Link>
     </div>
   );
