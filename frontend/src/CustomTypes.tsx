@@ -21,6 +21,7 @@ export interface newsArticleProp {
 }
 
 export interface projectProp {
+  altText: string;
   picture: string;
   route: string;
 }
