@@ -204,7 +204,7 @@ a {
   flex-direction: row;
   justify-content: center;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1037px) {
   .project-tiles-container {
     align-items: center;
     display: flex;

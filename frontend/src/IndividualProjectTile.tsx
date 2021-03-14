@@ -20,8 +20,8 @@ const IndividualProjectTile = ({ picture, route, altText }: projectProp) => {
   const determineStyle = (): React.CSSProperties => {
     if (isIpadOrSmaller) {
       return isiPhoneLengthWise
-        ? { width: "45vw", height: "23vh" }
-        : { width: "24vw", height: "25vh" };
+        ? { width: "45vw", height: "23vh", border: "none" }
+        : { width: "32vw", height: "23vh", border: "none" };
     } else return { border: "none" };
   };
 
