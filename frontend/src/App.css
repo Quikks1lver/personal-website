@@ -185,6 +185,46 @@ a {
   font-size: 120%;
 }
 
+/* Projects */
+.project-icon {
+  width: 17vw;
+  height: 23vh;
+  border: solid;
+}
+@media only screen and (max-width: 767px) {
+  .project-icon {
+    width: 30vw;
+    height: 25vh;
+    border: transparent;
+  }
+}
+.project-tiles-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media only screen and (max-width: 1037px) {
+  .project-tiles-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+  }
+}
+.projects-more-back-button {
+  background-color: transparent;
+  border: none;
+  color: #de5f25;
+  font-family: monospace;
+  font-size: 25px;
+  font-style: oblique;
+  height: 15%;
+  width: fit-content;
+  margin: 0%;
+}
+
 /* Terminal Text Box */
 .paragraph-container {
   border-style: groove;

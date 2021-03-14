@@ -14,6 +14,12 @@ const ContactMe = () => {
     backgroundColor: "rgba(255, 245, 245, 0.927)",
     color: "#de5f25",
   };
+  const citeStyle: React.CSSProperties = {
+    textAlign: "center",
+    color: "gray",
+    marginTop: "2%",
+    marginBottom: "0%",
+  };
 
   /**
    * Sends an email through EmailJS and sends a notification to the user
@@ -51,7 +57,6 @@ const ContactMe = () => {
   return (
     <div>
       <MiniHeading heading="Contact Me" />
-      <h3 style={{ textAlign: "center" }}>Feel free to shoot me a message!</h3>
       <form className="contact-form" onSubmit={handleClick}>
         <input
           className="contact-input"
@@ -89,6 +94,9 @@ const ContactMe = () => {
           style={isHoveredUpon ? hoveredStyle : undefined}
         />
       </form>
+      <h5 style={citeStyle}>
+        <em>Powered by EmailJS</em>
+      </h5>
     </div>
   );
 };

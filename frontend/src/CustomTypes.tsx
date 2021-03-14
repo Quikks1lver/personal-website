@@ -19,3 +19,9 @@ export interface newsArticleProp {
   blurb: string;
   link: string;
 }
+
+export interface projectProp {
+  altText: string;
+  picture: string;
+  route: string;
+}

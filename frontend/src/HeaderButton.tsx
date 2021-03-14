@@ -9,9 +9,6 @@ const HeaderButton = ({
   isHomeButton,
 }: headerButtonProp) => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
-  const linkColor: React.CSSProperties = {
-    color: "transparent",
-  };
 
   return (
     <div>
