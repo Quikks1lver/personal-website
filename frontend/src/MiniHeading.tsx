@@ -8,7 +8,7 @@ const MiniHeading = ({ heading }: { heading: string }) => {
   const styles: React.CSSProperties = {
     textAlign: "center",
   };
-  return <h2 style={styles}>-- {heading} --</h2>;
+  return <h2 style={styles}>{`{ ${heading} }`}</h2>;
 };
 
 export default MiniHeading;
