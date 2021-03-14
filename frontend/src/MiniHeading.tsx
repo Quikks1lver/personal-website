@@ -6,6 +6,7 @@ import React from "react";
  */
 const MiniHeading = ({ heading }: { heading: string }) => {
   const styles: React.CSSProperties = {
+    fontSize: 21,
     textAlign: "center",
   };
   return <h2 style={styles}>{`{ ${heading} }`}</h2>;
