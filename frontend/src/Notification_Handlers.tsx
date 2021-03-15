@@ -1,9 +1,6 @@
 // React notifications
 import addNotification from "react-push-notification";
-import {
-  Color,
-  Options,
-} from "react-push-notification/dist/notifications/Storage";
+import { Options } from "react-push-notification/dist/notifications/Storage";
 
 /**
  * Sends a notification via react push notifications
