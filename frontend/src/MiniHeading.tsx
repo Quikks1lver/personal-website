@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 
 /**
  * A neat little heading component
@@ -9,7 +10,18 @@ const MiniHeading = ({ heading }: { heading: string }) => {
     fontSize: 21,
     textAlign: "center",
   };
-  return <h2 style={styles}>{`{ ${heading} }`}</h2>;
+  const typingSpeed: number = 200;
+
+  return (
+    <div style={{ fontSize: 22, textAlign: "center" }}>
+      <ReactTypingEffect
+        text={`{ ${heading} }`}
+        typingDelay={typingSpeed}
+        speed={typingSpeed}
+        eraseSpeed={750}
+      />
+    </div>
+  );
 };
 
 export default MiniHeading;
