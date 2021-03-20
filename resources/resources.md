@@ -18,3 +18,4 @@
 - [Open Links in another Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)
 - [PNG to ICO](https://convertico.com/)
 - [Overlay Text over Image](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text)
+- [React Typing Effect on npm](https://www.npmjs.com/package/react-typing-effect)
