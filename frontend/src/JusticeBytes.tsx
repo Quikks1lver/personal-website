@@ -1,11 +1,19 @@
 import React from "react";
+import MiniHeading from "./MiniHeading";
 
 /**
  * Project page for Justice Bytes
  * @returns
  */
 const JusticeBytes = () => {
-  return <h1>JusticeBytes</h1>;
+  return (
+    <div>
+      <MiniHeading
+        heading="Justice Bytes"
+        moreInfo='"A Search Engine for Social Justice"'
+      />
+    </div>
+  );
 };
 
 export default JusticeBytes;
