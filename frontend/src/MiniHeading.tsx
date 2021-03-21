@@ -13,12 +13,12 @@ const MiniHeading = ({ heading }: { heading: string }) => {
     marginBottom: 2,
     padding: 2,
   };
-  const typingSpeed: number = 200;
+  const typingSpeed: number = 250;
 
   return (
     <div style={containerStyle}>
       <ReactTypingEffect
-        text={`{ ${heading} }`}
+        text={heading}
         typingDelay={typingSpeed}
         speed={typingSpeed}
         eraseSpeed={750}
