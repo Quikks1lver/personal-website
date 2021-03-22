@@ -3,7 +3,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 /**
  * A neat little heading component, simulates someone typing
- * @param param0 main, required heading, a string, along with an string array with more info
+ * @param param0 main, required heading, a string, along with a string array with more info
  * @returns
  */
 const MiniHeading = ({
