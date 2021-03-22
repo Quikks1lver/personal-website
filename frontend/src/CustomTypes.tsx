@@ -4,6 +4,11 @@ export interface headerButtonProp {
   isHomeButton?: boolean;
 }
 
+export interface gifProp {
+  gif: string;
+  altText: string;
+}
+
 export interface linkBoxProp {
   url: string;
   siteName: string;
