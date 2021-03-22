@@ -15,6 +15,8 @@ const Gif = ({ gif, altText }: gifProp) => {
     <div
       style={{
         textAlign: "center",
+        marginTop: ".5%",
+        marginBottom: ".5%",
       }}
     >
       <img
