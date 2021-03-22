@@ -6,6 +6,9 @@ import MiniHeading from "./MiniHeading";
 import devpostLogo from "./images/devpost_logo.png";
 import githubLogo from "./images/github_logo.png";
 
+import jb_vid from "./clips/jb.gif";
+import Gif from "./Gif";
+
 /**
  * Project page for Justice Bytes
  * @returns
@@ -17,6 +20,9 @@ const JusticeBytes = () => {
         heading="Justice Bytes"
         moreInfo='"A Search Engine for Social Justice"'
       />
+
+      <Gif gif={jb_vid} altText="Justice Bytes video" />
+
       <div className="link-box-container">
         <LinkBox
           url="https://devpost.com/software/justicebytes"
