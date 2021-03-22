@@ -3,7 +3,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 /**
  * A neat little heading component, simulates someone typing
- * @param param0 main, required heading, a string, along with an optional more info string
+ * @param param0 main, required heading, a string, along with an string array with more info
  * @returns
  */
 const MiniHeading = ({
@@ -11,7 +11,7 @@ const MiniHeading = ({
   moreInfo,
 }: {
   heading: string;
-  moreInfo?: string;
+  moreInfo?: string[];
 }) => {
   const containerStyle: React.CSSProperties = {
     fontSize: 22,
@@ -21,10 +21,12 @@ const MiniHeading = ({
     padding: 2,
   };
 
-  const typingSpeed: number = 250;
+  const typingSpeed: number = 190;
 
   var text: string[] = [heading];
-  if (moreInfo !== undefined) text.push(moreInfo);
+  if (moreInfo !== undefined) {
+    moreInfo.forEach((s) => text.push(s));
+  }
 
   return (
     <div style={containerStyle}>
