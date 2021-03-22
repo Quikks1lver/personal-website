@@ -18,7 +18,7 @@ const JusticeBytes = () => {
     <div>
       <MiniHeading
         heading="Justice Bytes"
-        moreInfo='"A Search Engine for Social Justice"'
+        moreInfo={['"A Search Engine for Social Justice"', "ShellHacks 2020"]}
       />
 
       <Gif gif={jb_vid} altText="Justice Bytes video" />
