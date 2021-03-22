@@ -19,3 +19,5 @@
 - [PNG to ICO](https://convertico.com/)
 - [Overlay Text over Image](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text)
 - [React Typing Effect on npm](https://www.npmjs.com/package/react-typing-effect)
+- [Cloud Convert: MOV to GIF](https://cloudconvert.com/mov-to-gif)
+- [Speed up GIFs](https://ezgif.com/)
