@@ -21,3 +21,5 @@
 - [React Typing Effect on npm](https://www.npmjs.com/package/react-typing-effect)
 - [Cloud Convert: MOV to GIF](https://cloudconvert.com/mov-to-gif)
 - [Speed up GIFs](https://ezgif.com/)
+- [useLocation hook](https://reactrouter.com/web/api/Hooks/uselocation)
+  - [Stack Overflow post on how to use useLocation](https://stackoverflow.com/questions/60441226/react-routing-detect-route-change)
