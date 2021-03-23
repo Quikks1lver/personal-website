@@ -4,9 +4,10 @@ export interface headerButtonProp {
   isHomeButton?: boolean;
 }
 
-export interface gifProp {
-  gif: string;
+export interface mediaProp {
+  media: string;
   altText: string;
+  largeScreenPictureWidthPercentage?: number;
 }
 
 export interface linkBoxProp {

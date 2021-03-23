@@ -1,5 +1,5 @@
 import React from "react";
-import Gif from "./Gif";
+import Media from "./Media";
 import LinkBox from "./LinkBox";
 import MiniHeading from "./MiniHeading";
 import TerminalTextBox from "./TerminalTextBox";
@@ -30,7 +30,7 @@ const JusticeBytes = () => {
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
 
-      <Gif gif={jb_vid} altText="Justice Bytes video" />
+      <Media media={jb_vid} altText="Justice Bytes video" />
 
       <TerminalTextBox paragraphs={paragraphs.slice(3)} />
 
