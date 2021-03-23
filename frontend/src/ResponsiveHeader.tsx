@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import burger from "./images/burger.png";
 import Header from "./Header";
 import { useMediaQuery } from "./useMediaQuery";
@@ -11,6 +12,13 @@ import { MOBILE_WIDTH_THRESHOLD } from "./Constants";
 const ResponsiveHeader = () => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let isMobile = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
+  const location = useLocation();
+
+  // if the page changes, close the hamburger icon, because that means the user has clicked
+  // on a new route. Don't keep the burger menu open.
+  useEffect(() => {
+    setIsHamburgerOpen(false);
+  }, [location]);
 
   return (
     <div>
