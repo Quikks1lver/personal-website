@@ -10,9 +10,9 @@ import githubLogo from "./images/github_logo.png";
 
 const paragraphs: string[] = [
   "Visa Bop was the project a couple of friends and I worked on for SwampHacks 2020, headed by the University of Florida.",
-  "The idea was a ...",
-  "...",
-  "Feel free to view the brief demo above, and check out our Devpost submission and our GitHub repo below!",
+  "The idea was a website to connect immigrants to the U.S. with relevant jobs, based on visa type.",
+  "I primarily worked on scraping Indeed.com for job postings, and sending the information back to the front end.",
+  "Feel free to view the brief demo of my part of the project, and check out our Devpost submission and our GitHub repo below!",
 ];
 
 /**
@@ -24,7 +24,7 @@ const VisaBop = () => {
     <div>
       <MiniHeading
         heading="Visa Bop"
-        moreInfo={["Matching Visas to Jobs", "SwampHacks 2020"]}
+        moreInfo={['"Matching Visas to Jobs"', "SwampHacks 2020"]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
