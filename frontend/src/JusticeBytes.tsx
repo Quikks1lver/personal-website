@@ -28,7 +28,7 @@ const JusticeBytes = () => {
         moreInfo={['"A Search Engine for Social Justice"', "ShellHacks 2020"]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
+      <TerminalTextBox paragraphs={paragraphs.slice(0, 3)} />
 
       <Media media={jb_vid} altText="Justice Bytes video" />
 
