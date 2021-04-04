@@ -1,5 +1,5 @@
 import React from "react";
-import Gif from "./Gif";
+import Media from "./Media";
 import LinkBox from "./LinkBox";
 import MiniHeading from "./MiniHeading";
 import TerminalTextBox from "./TerminalTextBox";
@@ -12,7 +12,7 @@ import jb_vid from "./clips/jb.gif";
 const paragraphs: string[] = [
   "Justice Bytes was the project a group of friends and I worked on for ShellHacks 2020, the largest hackathon in Florida, headed by Florida International University.",
   "The idea was essentially a search engine for social justice-related news: a central place where anyone could go to learn more.",
-  "While the project utilized a full stack, I primarily worked on the backend as a web-scraper, finding news articles which my teammates would supplement with their findings to display to the user. I also worked on some frontend styling",
+  "While the project utilized a full stack, I primarily worked on the backend as a web-scraper using Beautiful Soup, finding news articles which my teammates would supplement with their findings to display to the user. I also worked a bit on the React frontend.",
   "Feel free to view the brief demo above, and check out our Devpost submission and our GitHub repo below!",
 ];
 
@@ -28,9 +28,9 @@ const JusticeBytes = () => {
         moreInfo={['"A Search Engine for Social Justice"', "ShellHacks 2020"]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
+      <TerminalTextBox paragraphs={paragraphs.slice(0, 3)} />
 
-      <Gif gif={jb_vid} altText="Justice Bytes video" />
+      <Media media={jb_vid} altText="Justice Bytes video" />
 
       <TerminalTextBox paragraphs={paragraphs.slice(3)} />
 
