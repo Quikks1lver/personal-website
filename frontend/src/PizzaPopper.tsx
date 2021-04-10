@@ -10,7 +10,7 @@ import pizza_vid from "./clips/pizza.gif";
 
 const paragraphs: string[] = [
   "Pizza Popper was my very first React project; I wanted to create a fun game to get better at the framework.",
-  "The object of the game is to simply bake as many pizzas as possible (totally NOT a Cookie Clicker knockoff) 😉.",
+  "The object of the game is to simply bake as many pizzas as possible!",
   "Feel free to view the brief demo above, and check out the GitHub repo below!",
 ];
 
@@ -23,7 +23,7 @@ const PizzaPopper = () => {
     <div>
       <MiniHeading
         heading="Pizza Popper"
-        moreInfo={["Bake infinite pizzas!", "Totally NOT Cookie Clicker 😉"]}
+        moreInfo={["Bake infinite pizzas!", "Totally NOT Cookie Clicker ;)"]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
