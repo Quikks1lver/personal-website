@@ -43,7 +43,8 @@ const paragraphs5: string[] = [
 ];
 
 const AboutMe = () => {
-  const ABOUT_ME_PIC_WIDTH: number = 15;
+  const PIC_WIDTH_LARGE_SCREEN: number = 18;
+  const PIC_WIDTH_SMALL_SCREEN: number = 65;
 
   return (
     <div>
@@ -53,7 +54,8 @@ const AboutMe = () => {
       <Media
         media={nacho_libre}
         altText="Just trying to help others get by."
-        largeScreenPictureWidthPercentage={ABOUT_ME_PIC_WIDTH}
+        largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
+        smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
         caption="Like Nacho, I was just trying to help others get by :)."
       />
 
@@ -62,8 +64,9 @@ const AboutMe = () => {
       <Media
         media={sparks}
         altText="Sparks"
-        largeScreenPictureWidthPercentage={ABOUT_ME_PIC_WIDTH}
-        caption="Effect change"
+        largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
+        smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
+        caption="How to effect change?"
       />
 
       <TerminalTextBox paragraphs={paragraphs3} />
@@ -71,7 +74,8 @@ const AboutMe = () => {
       <Media
         media={matrix}
         altText="Matrix code"
-        largeScreenPictureWidthPercentage={ABOUT_ME_PIC_WIDTH}
+        largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
+        smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
         caption="What do these numbers mean?"
       />
 
@@ -80,7 +84,8 @@ const AboutMe = () => {
       <Media
         media={adidama}
         altText="A picture of Adam"
-        largeScreenPictureWidthPercentage={ABOUT_ME_PIC_WIDTH}
+        largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
+        smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
         caption="Abide by UCF's motto: Reach for the Stars"
       />
 
@@ -89,7 +94,8 @@ const AboutMe = () => {
       <Media
         media={leo}
         altText="A picture of the dog"
-        largeScreenPictureWidthPercentage={ABOUT_ME_PIC_WIDTH}
+        largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
+        smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
         caption="The doggo says see ya! (And enjoy the rest of the site!)"
       />
     </div>
