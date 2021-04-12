@@ -25,7 +25,11 @@ const JusticeBytes = () => {
     <div>
       <MiniHeading
         heading="Justice Bytes"
-        moreInfo={['"A Search Engine for Social Justice"', "ShellHacks 2020"]}
+        moreInfo={[
+          '"A Search Engine for Social Justice"',
+          "ShellHacks 2020",
+          "Sep. 2020",
+        ]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 3)} />
