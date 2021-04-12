@@ -12,6 +12,7 @@ const Media = ({
   media,
   altText,
   largeScreenPictureWidthPercentage,
+  caption,
 }: mediaProp) => {
   const isIpadOrSmaller = useMediaQuery(IPAD_WIDTH_THRESHOLD);
 
@@ -30,8 +31,8 @@ const Media = ({
     <div
       style={{
         textAlign: "center",
-        marginTop: ".5%",
-        marginBottom: ".5%",
+        marginTop: "1%",
+        marginBottom: "1%",
       }}
     >
       <img
@@ -41,6 +42,12 @@ const Media = ({
         width={determineWidth()}
         height="50%"
       ></img>
+      {caption !== undefined && (
+        <h5 style={{ marginTop: "0%" }}>
+          {" "}
+          <em>{caption}</em>
+        </h5>
+      )}
     </div>
   );
 };
