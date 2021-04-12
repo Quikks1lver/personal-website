@@ -23,7 +23,7 @@ const Imdb = () => {
     <div>
       <MiniHeading
         heading="IMDB Parsing"
-        moreInfo={["Get Movie Recommendations!"]}
+        moreInfo={["Get Movie Recommendations!", "Dec. 2019"]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
