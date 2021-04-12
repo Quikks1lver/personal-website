@@ -16,7 +16,7 @@ const paragraphs1: string[] = [
   "In 2007, back when I was in kindergarten, our teacher, Mrs. B, asked us what we wanted to be when we grew up.",
   "Some of my young classmates wanted to be successful doctors, others curious astronauts, and, others still, skillful pro-gamers.",
   "Me? When I was called to share, I told everyone that I wanted to be a firefighter. My classmates chuckled, and my teacher, curious, asked why.",
-  "'Simple!', I exclaimed. 'If you guys are doing all this, who'll save us from getting burned?'",
+  '"Simple!", I exclaimed. "If you guys are doing all this, who will save us from getting burned?"',
 ];
 
 const paragraphs2: string[] = [
@@ -25,7 +25,7 @@ const paragraphs2: string[] = [
 ];
 
 const paragraphs3: string[] = [
-  ". . . but it wasn't until recently that I finally discovered how I'd do it.",
+  ". . . but it wasn't until fairly recently that I finally discovered how I'd do it.",
   "During the scorching summer of 2017, I was stuck at home and tired of playing videogames. Searching for something to pass the time, I decided to give coding a try.",
   "Needless to say, the link between man and machine simply fascinated me.",
   "Knowing that without a competent coder at the keyboard, a computer is nothing, boggled my mind. I had to learn more.",
