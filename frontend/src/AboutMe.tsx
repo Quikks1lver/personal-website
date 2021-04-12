@@ -12,32 +12,32 @@ import sparks from "./clips/sparks.gif";
 
 const heading: string = "About Me";
 
-const paragraphs1: string[] = [
+const kindergartenIntro: string[] = [
   "In 2007, back when I was in kindergarten, our teacher, Mrs. B, asked us what we wanted to be when we grew up.",
   "Some of my young classmates wanted to be successful doctors, others curious astronauts, and, others still, skillful pro-gamers.",
   "Me? When I was called to share, I told everyone that I wanted to be a firefighter. My classmates chuckled, and my teacher, curious, asked why.",
   '"Simple!", I exclaimed. "If you guys are doing all this, who will save us from getting burned?"',
 ];
 
-const paragraphs2: string[] = [
+const sparkingADifferenceIntro: string[] = [
   "Innocence aside, I'll always remember that day, since it was the first time I openly stated my goal.",
   "I wanted to *spark* a difference . . . ",
 ];
 
-const paragraphs3: string[] = [
+const csIntroPara: string[] = [
   ". . . but it wasn't until fairly recently that I finally discovered how I'd do it.",
   "During the scorching summer of 2017, I was stuck at home and tired of playing videogames. Searching for something to pass the time, I decided to give coding a try.",
   "Needless to say, the link between man and machine simply fascinated me.",
   "Knowing that without a competent coder at the keyboard, a computer is nothing, boggled my mind. I had to learn more.",
 ];
 
-const paragraphs4: string[] = [
+const csMajorPara: string[] = [
   "Throughout my studies, I enjoyed the theory and practicality of computer science. I eventually chose it as my major, as well.",
   "Since then, I've interned, researched, and tutored in the field, and I'm actively looking for which niche I can settle into within CS.",
   "Whatever it may be, I'm confident that I'll use my moral compass to build empowering, robust software that can advance the world.",
 ];
 
-const paragraphs5: string[] = [
+const otherInterestsPara: string[] = [
   "Aside from coding, of course ;), I enjoy reading and writing comic books, watching movies, playing cool board games (particularly 'Sherriff of Nottingham'), trying new food, and playing around with my dog.",
   "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless =).",
 ];
@@ -49,7 +49,7 @@ const AboutMe = () => {
   return (
     <div>
       <MiniHeading heading={heading} />
-      <TerminalTextBox paragraphs={paragraphs1} />
+      <TerminalTextBox paragraphs={kindergartenIntro} />
 
       <Media
         media={nacho_libre}
@@ -59,7 +59,7 @@ const AboutMe = () => {
         caption="Like Nacho, I was just trying to help others get by :)."
       />
 
-      <TerminalTextBox paragraphs={paragraphs2} />
+      <TerminalTextBox paragraphs={sparkingADifferenceIntro} />
 
       <Media
         media={sparks}
@@ -69,7 +69,7 @@ const AboutMe = () => {
         caption="How to effect change?"
       />
 
-      <TerminalTextBox paragraphs={paragraphs3} />
+      <TerminalTextBox paragraphs={csIntroPara} />
 
       <Media
         media={matrix}
@@ -79,7 +79,7 @@ const AboutMe = () => {
         caption="What do these numbers mean?"
       />
 
-      <TerminalTextBox paragraphs={paragraphs4} />
+      <TerminalTextBox paragraphs={csMajorPara} />
 
       <Media
         media={adidama}
@@ -89,7 +89,7 @@ const AboutMe = () => {
         caption="Abide by UCF's motto: Reach for the Stars"
       />
 
-      <TerminalTextBox paragraphs={paragraphs5} />
+      <TerminalTextBox paragraphs={otherInterestsPara} />
 
       <Media
         media={leo}
