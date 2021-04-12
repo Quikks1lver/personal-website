@@ -25,7 +25,11 @@ const VisaBop = () => {
     <div>
       <MiniHeading
         heading="Visa Bop"
-        moreInfo={['"Matching Visas to Jobs"', "SwampHacks 2020"]}
+        moreInfo={[
+          '"Matching Visas to Jobs"',
+          "SwampHacks 2020",
+          "Jan. - Feb. 2020",
+        ]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 3)} />
