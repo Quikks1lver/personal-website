@@ -5,3 +5,6 @@
 - [movie roll](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimg%2F1012.jpg&f=1&nofb=1)
 - [visa](https://www.cleanpng.com/png-credit-card-visa-debit-card-chase-bank-credit-debi-6290547/)
 - [devpost](https://flarehacks.com/assets/img/devpost-logo.png)
+- [matrix](https://www.textures4photoshop.com/tex/abstract/matrix-code-animation-gif-free-animated-background.aspx)
+- [sparks](https://peaceartsite.com/images/mummers-spark.gif)
+- [Nacho Libre](https://media.giphy.com/media/13aSSyJaI5NkTm/giphy.gif)
