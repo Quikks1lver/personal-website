@@ -96,7 +96,7 @@ const AboutMe = () => {
         altText="A picture of the dog"
         largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
         smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
-        caption="The doggo says see ya! (And enjoy the rest of the site!)"
+        caption="The doggo says see ya!"
       />
     </div>
   );
