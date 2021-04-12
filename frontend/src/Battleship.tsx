@@ -23,7 +23,11 @@ const Battleship = () => {
     <div>
       <MiniHeading
         heading="Battleship"
-        moreInfo={["Sink the enemy's fleet...", "...before they sink yours!"]}
+        moreInfo={[
+          "Sink the enemy's fleet...",
+          "...before they sink yours!",
+          "Nov. 2019",
+        ]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
