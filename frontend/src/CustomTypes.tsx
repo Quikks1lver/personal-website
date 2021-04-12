@@ -8,6 +8,7 @@ export interface mediaProp {
   media: string;
   altText: string;
   largeScreenPictureWidthPercentage?: number;
+  caption?: string;
 }
 
 export interface linkBoxProp {
