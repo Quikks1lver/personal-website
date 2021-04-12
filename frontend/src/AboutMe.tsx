@@ -12,14 +12,14 @@ import sparks from "./clips/sparks.gif";
 
 const heading: string = "About Me";
 
-const kindergartenIntro: string[] = [
+const kindergartenPara: string[] = [
   "In 2007, back when I was in kindergarten, our teacher, Mrs. B, asked us what we wanted to be when we grew up.",
   "Some of my young classmates wanted to be successful doctors, others curious astronauts, and, others still, skillful pro-gamers.",
   "Me? When I was called to share, I told everyone that I wanted to be a firefighter. My classmates chuckled, and my teacher, curious, asked why.",
   '"Simple!", I exclaimed. "If you guys are doing all this, who will save us from getting burned?"',
 ];
 
-const sparkingADifferenceIntro: string[] = [
+const sparkingADifferencePara: string[] = [
   "Innocence aside, I'll always remember that day, since it was the first time I openly stated my goal.",
   "I wanted to *spark* a difference . . . ",
 ];
@@ -49,7 +49,7 @@ const AboutMe = () => {
   return (
     <div>
       <MiniHeading heading={heading} />
-      <TerminalTextBox paragraphs={kindergartenIntro} />
+      <TerminalTextBox paragraphs={kindergartenPara} />
 
       <Media
         media={nacho_libre}
@@ -59,7 +59,7 @@ const AboutMe = () => {
         caption="Like Nacho, I was just trying to help others get by :)."
       />
 
-      <TerminalTextBox paragraphs={sparkingADifferenceIntro} />
+      <TerminalTextBox paragraphs={sparkingADifferencePara} />
 
       <Media
         media={sparks}
