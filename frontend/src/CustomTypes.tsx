@@ -8,6 +8,7 @@ export interface mediaProp {
   media: string;
   altText: string;
   largeScreenPictureWidthPercentage?: number;
+  smallScreenPictureWidthPercentage?: number;
   caption?: string;
 }
 
