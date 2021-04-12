@@ -12,18 +12,31 @@ const Media = ({
   media,
   altText,
   largeScreenPictureWidthPercentage,
+  smallScreenPictureWidthPercentage,
   caption,
 }: mediaProp) => {
   const isIpadOrSmaller = useMediaQuery(IPAD_WIDTH_THRESHOLD);
+
+  /**
+   * converts widths to width css strings
+   * @param width
+   * @returns
+   */
+  const stringifyWidth = (width: number): string => {
+    return width.toString() + "%";
+  };
 
   /**
    * Determines the correct width for the media
    * @returns string representing desired width
    */
   const determineWidth = (): string => {
-    if (isIpadOrSmaller) return "100%";
-    if (largeScreenPictureWidthPercentage !== undefined)
-      return largeScreenPictureWidthPercentage.toString() + "%";
+    if (isIpadOrSmaller) {
+      if (smallScreenPictureWidthPercentage !== undefined)
+        return stringifyWidth(smallScreenPictureWidthPercentage);
+      else return "100%";
+    } else if (largeScreenPictureWidthPercentage !== undefined)
+      return stringifyWidth(largeScreenPictureWidthPercentage);
     else return "50%";
   };
 
