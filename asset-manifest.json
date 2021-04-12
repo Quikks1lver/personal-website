@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.a93e14ed.chunk.css",
-    "main.js": "/personal-website/static/js/main.bed91b00.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.bed91b00.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.608b376b.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.608b376b.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.082b517f.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.082b517f.js.map",
     "static/css/2.e40bb983.chunk.css": "/personal-website/static/css/2.e40bb983.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.e40bb983.chunk.css.map": "/personal-website/static/css/2.e40bb983.chunk.css.map",
     "static/css/main.a93e14ed.chunk.css.map": "/personal-website/static/css/main.a93e14ed.chunk.css.map",
     "static/js/2.cc3fb44c.chunk.js.LICENSE.txt": "/personal-website/static/js/2.cc3fb44c.chunk.js.LICENSE.txt",
+    "static/media/adidama.de34c911.png": "/personal-website/static/media/adidama.de34c911.png",
     "static/media/battleship.143030a2.gif": "/personal-website/static/media/battleship.143030a2.gif",
     "static/media/battleship_icon.80d3bac9.png": "/personal-website/static/media/battleship_icon.80d3bac9.png",
     "static/media/devpost_logo.ab91ce53.png": "/personal-website/static/media/devpost_logo.ab91ce53.png",
@@ -22,10 +23,14 @@
     "static/media/imdb.74d8f50c.gif": "/personal-website/static/media/imdb.74d8f50c.gif",
     "static/media/jb.889ce6c5.gif": "/personal-website/static/media/jb.889ce6c5.gif",
     "static/media/justice_bytes_icon.5577253c.png": "/personal-website/static/media/justice_bytes_icon.5577253c.png",
+    "static/media/leo.977067d3.png": "/personal-website/static/media/leo.977067d3.png",
     "static/media/linkedin_logo.6d58dbe8.png": "/personal-website/static/media/linkedin_logo.6d58dbe8.png",
+    "static/media/matrix.c8d5a2ac.gif": "/personal-website/static/media/matrix.c8d5a2ac.gif",
     "static/media/movie_icon.94b237b7.png": "/personal-website/static/media/movie_icon.94b237b7.png",
+    "static/media/nacho_libre.c853897f.gif": "/personal-website/static/media/nacho_libre.c853897f.gif",
     "static/media/pizza.5d67fb38.gif": "/personal-website/static/media/pizza.5d67fb38.gif",
     "static/media/pizza_icon.b9302c93.png": "/personal-website/static/media/pizza_icon.b9302c93.png",
+    "static/media/sparks.b2b98d43.gif": "/personal-website/static/media/sparks.b2b98d43.gif",
     "static/media/vb.d0f4e3a8.gif": "/personal-website/static/media/vb.d0f4e3a8.gif",
     "static/media/visa_icon.0ab2f7a3.png": "/personal-website/static/media/visa_icon.0ab2f7a3.png"
   },
@@ -34,6 +39,6 @@
     "static/css/2.e40bb983.chunk.css",
     "static/js/2.cc3fb44c.chunk.js",
     "static/css/main.a93e14ed.chunk.css",
-    "static/js/main.bed91b00.chunk.js"
+    "static/js/main.608b376b.chunk.js"
   ]
 }
