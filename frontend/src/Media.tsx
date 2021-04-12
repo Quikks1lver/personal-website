@@ -56,10 +56,10 @@ const Media = ({
         height="50%"
       ></img>
       {caption !== undefined && (
-        <h5 style={{ marginTop: "0%" }}>
+        <h4 style={{ marginTop: "0%" }}>
           {" "}
           <em>{caption}</em>
-        </h5>
+        </h4>
       )}
     </div>
   );
