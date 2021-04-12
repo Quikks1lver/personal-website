@@ -23,7 +23,11 @@ const PizzaPopper = () => {
     <div>
       <MiniHeading
         heading="Pizza Popper"
-        moreInfo={["Bake infinite pizzas!", "Totally NOT Cookie Clicker ;)"]}
+        moreInfo={[
+          "Bake infinite pizzas!",
+          "Totally NOT Cookie Clicker ;)",
+          "Mar. - Apr. 2020",
+        ]}
       />
 
       <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
