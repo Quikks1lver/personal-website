@@ -44,7 +44,7 @@ const otherInterestsPara: string[] = [
 
 const AboutMe = () => {
   const PIC_WIDTH_LARGE_SCREEN: number = 18;
-  const PIC_WIDTH_SMALL_SCREEN: number = 65;
+  const PIC_WIDTH_SMALL_SCREEN: number = 40;
 
   return (
     <div>

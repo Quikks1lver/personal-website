@@ -88,7 +88,7 @@ a {
   font-family: monospace;
 }
 .contact-input {
-  background-color: rgba(255, 245, 245, 0.927);
+  background-color: transparent;
   border-radius: 5px;
   color: #de5f25;
   font-family: monospace;
