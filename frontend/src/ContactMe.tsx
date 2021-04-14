@@ -8,8 +8,11 @@ import emailjs from "emailjs-com";
 import { EmailJS_INFO } from "./EmailJS_Keys";
 import sendNotification from "./Notification_Handlers";
 
-// Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
-
+/**
+ * Contact Me page
+ * Much of the code here is from https://www.emailjs.com/docs/examples/reactjs/, thanks!
+ * @returns
+ */
 const ContactMe = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
