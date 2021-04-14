@@ -5,6 +5,10 @@ import newsInfo from "./NewsInfo";
 import { motion } from "framer-motion";
 import { pageVariant, pageTransition } from "./FramerVariants";
 
+/**
+ * News page
+ * @returns
+ */
 const News = () => {
   const displayArticles = (): JSX.Element[] => {
     var output: JSX.Element[] = [];
