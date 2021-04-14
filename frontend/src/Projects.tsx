@@ -10,6 +10,10 @@ import movie_icon from "./images/movie_icon.png";
 import pizza_icon from "./images/pizza_icon.png";
 import visa_icon from "./images/visa_icon.png";
 
+/**
+ * Projects page
+ * @returns
+ */
 const Projects = () => {
   return (
     <motion.div
