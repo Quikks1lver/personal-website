@@ -2,6 +2,8 @@ import React from "react";
 import Media from "./Media";
 import MiniHeading from "./MiniHeading";
 import TerminalTextBox from "./TerminalTextBox";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 // images
 import adidama from "./images/adidama.png";
@@ -47,7 +49,13 @@ const AboutMe = () => {
   const PIC_WIDTH_SMALL_SCREEN: number = 40;
 
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading heading={heading} />
       <TerminalTextBox paragraphs={kindergartenPara} />
 
@@ -98,7 +106,7 @@ const AboutMe = () => {
         smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
         caption="The doggo says see ya!"
       />
-    </div>
+    </motion.div>
   );
 };
 
