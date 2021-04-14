@@ -2,6 +2,8 @@ import React from "react";
 import MiniHeading from "./MiniHeading";
 import NewsArticle from "./NewsArticle";
 import newsInfo from "./NewsInfo";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 const News = () => {
   const displayArticles = (): JSX.Element[] => {
@@ -29,10 +31,16 @@ const News = () => {
   };
 
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading heading={"In the News"} />
       {displayArticles()}
-    </div>
+    </motion.div>
   );
 };
 
