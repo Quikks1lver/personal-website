@@ -23,3 +23,5 @@
 - [Speed up GIFs](https://ezgif.com/)
 - [useLocation hook](https://reactrouter.com/web/api/Hooks/uselocation)
   - [Stack Overflow post on how to use useLocation](https://stackoverflow.com/questions/60441226/react-routing-detect-route-change)
+- [Framer Motion NPM Module](https://www.npmjs.com/package/framer-motion)
+  - [Tutorial](https://www.youtube.com/watch?v=qJt-FtzJ5fo)
