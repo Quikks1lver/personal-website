@@ -1,7 +1,8 @@
 import React from "react";
 import MiniHeading from "./MiniHeading";
-
 import IndividualProjectTile from "./IndividualProjectTile";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 import battleship_icon from "./images/battleship_icon.png";
 import justice_bytes_icon from "./images/justice_bytes_icon.png";
@@ -11,7 +12,13 @@ import visa_icon from "./images/visa_icon.png";
 
 const Projects = () => {
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading heading={"Cool Projects"} />
 
       <div
@@ -44,7 +51,7 @@ const Projects = () => {
           altText="Battleship"
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
