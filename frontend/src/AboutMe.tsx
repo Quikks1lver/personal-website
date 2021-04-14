@@ -44,6 +44,10 @@ const otherInterestsPara: string[] = [
   "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless =).",
 ];
 
+/**
+ * About me page
+ * @returns
+ */
 const AboutMe = () => {
   const PIC_WIDTH_LARGE_SCREEN: number = 18;
   const PIC_WIDTH_SMALL_SCREEN: number = 40;
