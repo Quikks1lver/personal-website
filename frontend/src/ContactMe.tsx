@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import MiniHeading from "./MiniHeading";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 // Email JS
 import emailjs from "emailjs-com";
@@ -55,7 +57,13 @@ const ContactMe = () => {
   };
 
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading heading="Contact Me" />
       <form className="contact-form" onSubmit={handleClick}>
         <input
@@ -97,7 +105,7 @@ const ContactMe = () => {
       <h5 style={citeStyle}>
         <em>Powered by EmailJS</em>
       </h5>
-    </div>
+    </motion.div>
   );
 };
 

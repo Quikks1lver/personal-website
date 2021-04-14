@@ -3,6 +3,8 @@ import Media from "./Media";
 import LinkBox from "./LinkBox";
 import MiniHeading from "./MiniHeading";
 import TerminalTextBox from "./TerminalTextBox";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 // images & videos
 import githubLogo from "./images/github_logo.png";
@@ -20,7 +22,13 @@ const paragraphs: string[] = [
  */
 const PizzaPopper = () => {
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading
         heading="Pizza Popper"
         moreInfo={[
@@ -43,7 +51,7 @@ const PizzaPopper = () => {
           image={githubLogo}
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

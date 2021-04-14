@@ -32,7 +32,7 @@ const MiniHeading = ({
     <div style={containerStyle}>
       <ReactTypingEffect
         text={text}
-        typingDelay={350}
+        typingDelay={775}
         speed={typingSpeed}
         eraseSpeed={typingSpeed}
         eraseDelay={3000}

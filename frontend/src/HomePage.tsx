@@ -1,12 +1,15 @@
 import React from "react";
 import LinkBox from "./LinkBox";
+import { motion } from "framer-motion";
 import MiniHeading from "./MiniHeading";
+import { pageVariant, pageTransition } from "./FramerVariants";
 import TerminalTextBox from "./TerminalTextBox";
 
 // Images
 import githubLogo from "./images/github_logo.png";
 import linkedInLogo from "./images/linkedin_logo.png";
 import emailLogo from "./images/email_logo.png";
+import Footer from "./Footer";
 
 const heading: string = "Welcome to my website!";
 const paragraphs: string[] = [
@@ -17,10 +20,18 @@ const paragraphs: string[] = [
 
 /**
  * Home Page with links to other relevant websites (GitHub, LinkedIn, etc.)
+ * Also contains the footer at the bottom
  */
-const IntroBlurb = () => {
+const HomePage = () => {
   return (
-    <div className="blurb">
+    <motion.div
+      className="blurb"
+      animate="in"
+      exit="out"
+      initial="initial"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <h1>
         What's up, I'm <strong>Adam</strong>.
       </h1>
@@ -43,8 +54,10 @@ const IntroBlurb = () => {
           image={linkedInLogo}
         />
       </div>
-    </div>
+
+      <Footer />
+    </motion.div>
   );
 };
 
-export default IntroBlurb;
+export default HomePage;

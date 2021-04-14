@@ -3,6 +3,8 @@ import Media from "./Media";
 import LinkBox from "./LinkBox";
 import MiniHeading from "./MiniHeading";
 import TerminalTextBox from "./TerminalTextBox";
+import { motion } from "framer-motion";
+import { pageVariant, pageTransition } from "./FramerVariants";
 
 // images & videos
 import devpostLogo from "./images/devpost_logo.png";
@@ -22,7 +24,13 @@ const paragraphs: string[] = [
  */
 const JusticeBytes = () => {
   return (
-    <div>
+    <motion.div
+      animate="in"
+      exit="out"
+      initial="out"
+      variants={pageVariant}
+      transition={pageTransition}
+    >
       <MiniHeading
         heading="Justice Bytes"
         moreInfo={[
@@ -50,7 +58,7 @@ const JusticeBytes = () => {
           image={githubLogo}
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
