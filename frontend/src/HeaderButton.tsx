@@ -3,6 +3,11 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import { headerButtonProp } from "./CustomTypes";
 
+/**
+ * Header button component
+ * @param param0 buttonName (string), toPath (string), and isHomeButton (boolean)
+ * @returns
+ */
 const HeaderButton = ({
   buttonName,
   toPath,
