@@ -173,6 +173,7 @@ a {
   margin: 0.3%;
 }
 .hovered-news-container {
+  border-style: groove;
   background-color: #de602552;
   text-align: left;
   border-radius: 10px;

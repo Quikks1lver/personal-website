@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import { urlProp } from "./CustomTypes";
 
-const Footer = ({ url, hyperlinkName }: urlProp) => {
+const Footer = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {
     color: "#de5f25",
@@ -13,14 +12,14 @@ const Footer = ({ url, hyperlinkName }: urlProp) => {
       <a
         onMouseEnter={() => setIsHoveredUpon(true)}
         onMouseLeave={() => setIsHoveredUpon(false)}
-        href={url}
+        href={"https://github.com/Quikks1lver/personal-website"}
         className="footer-link"
         style={isHoveredUpon ? hoveredStyle : undefined}
         target="_blank"
         rel="noopener noreferrer"
       >
         <p>
-          <em>{hyperlinkName}</em>
+          <em>Developed with 💙 by Adam</em>
         </p>
       </a>
     </div>

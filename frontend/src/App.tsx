@@ -9,7 +9,6 @@ import News from "./News";
 import Projects from "./Projects";
 import ProjectsMore from "./ProjectsMore";
 import ResponsiveHeader from "./ResponsiveHeader";
-import { urlProp } from "./CustomTypes";
 
 // Individual Projects
 import JusticeBytes from "./JusticeBytes";
@@ -22,12 +21,6 @@ import Battleship from "./Battleship";
 import { Notifications } from "react-push-notification";
 
 const App = () => {
-  const GITHUB_URL: string = "https://github.com/Quikks1lver/personal-website";
-  const footerProps: urlProp = {
-    url: GITHUB_URL,
-    hyperlinkName: "Developed with 💙 by Adam",
-  };
-
   return (
     <Router basename="/">
       <Notifications />
@@ -46,7 +39,7 @@ const App = () => {
       <Route path="/more/imdb" component={Imdb} />
       <Route path="/more/battleship" component={Battleship} />
 
-      <Footer url={footerProps.url} hyperlinkName={footerProps.hyperlinkName} />
+      <Route exact path="/" component={Footer} />
     </Router>
   );
 };

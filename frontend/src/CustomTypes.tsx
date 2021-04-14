@@ -18,11 +18,6 @@ export interface linkBoxProp {
   image: string;
 }
 
-export interface urlProp {
-  url: string;
-  hyperlinkName: string;
-}
-
 export interface newsArticleProp {
   blurb: string;
   link: string;
