@@ -1,10 +1,8 @@
-// This code is straight from here: https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/
-// Thanks, Netlify =]
-
 import { useState, useEffect } from "react";
 
 /**
  * Custom hook that returns a boolean representing whether the screen satisfies the param, media query
+ * This code is straight from here: https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/
  * @param query media query string
  */
 export function useMediaQuery(query: string) {

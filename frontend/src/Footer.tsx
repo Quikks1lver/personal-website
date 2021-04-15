@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 
+/**
+ * Footer for home page: GitHub source code link
+ * @returns
+ */
 const Footer = () => {
   const [isHoveredUpon, setIsHoveredUpon] = useState(false);
   const hoveredStyle: React.CSSProperties = {

@@ -4,6 +4,11 @@ import { newsArticleProp } from "./CustomTypes";
 import Filler from "./Filler";
 import { useMediaQuery } from "./useMediaQuery";
 
+/**
+ * Renders a news article which looks kind of like a TerminalTextBox
+ * @param param0 blurb/title (string) and link/url (string)
+ * @returns
+ */
 const NewsArticle = ({ blurb, link }: newsArticleProp) => {
   let renderFillers = useMediaQuery(MOBILE_WIDTH_THRESHOLD);
 

@@ -22,6 +22,10 @@ import { Notifications } from "react-push-notification";
 // Animation
 import { AnimatePresence } from "framer-motion";
 
+/**
+ * Houses entire app
+ * @returns
+ */
 const App = () => {
   return (
     <AnimatePresence exitBeforeEnter>

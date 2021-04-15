@@ -3,6 +3,10 @@ import "./App.css";
 import Filler from "./Filler";
 import HeaderButton from "./HeaderButton";
 
+/**
+ * Plain old header, with no responsive features
+ * @returns
+ */
 const Header = () => {
   return (
     <div className="header">
