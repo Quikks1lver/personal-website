@@ -15,7 +15,7 @@ import sparks from "./clips/sparks.gif";
 const heading: string = "About Me";
 
 const kindergartenPara: string[] = [
-  "In 2007, back when I was in kindergarten, our teacher, Mrs. B, asked us what we wanted to be when we grew up.",
+  "In 2007, back when I was in kindergarten, our teacher, Mrs. B., asked us what we wanted to be when we grew up.",
   "Some of my young classmates wanted to be successful doctors, others curious astronauts, and, others still, skillful pro-gamers.",
   "Me? When I was called to share, I told everyone that I wanted to be a firefighter. My classmates chuckled, and my teacher, curious, asked why.",
   '"Simple!", I exclaimed. "If you guys are doing all this, who will save us from getting burned?"',
