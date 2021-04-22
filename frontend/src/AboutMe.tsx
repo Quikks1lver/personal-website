@@ -15,7 +15,7 @@ import sparks from "./clips/sparks.gif";
 const heading: string = "About Me";
 
 const kindergartenPara: string[] = [
-  "In 2007, back when I was in kindergarten, our teacher, Mrs. B, asked us what we wanted to be when we grew up.",
+  "In 2007, back when I was in kindergarten, our teacher, Mrs. B., asked us what we wanted to be when we grew up.",
   "Some of my young classmates wanted to be successful doctors, others curious astronauts, and, others still, skillful pro-gamers.",
   "Me? When I was called to share, I told everyone that I wanted to be a firefighter. My classmates chuckled, and my teacher, curious, asked why.",
   '"Simple!", I exclaimed. "If you guys are doing all this, who will save us from getting burned?"',
@@ -41,7 +41,7 @@ const csMajorPara: string[] = [
 
 const otherInterestsPara: string[] = [
   "Aside from coding, of course ;), I enjoy reading and writing comic books, watching movies, playing cool board games (particularly 'Sherriff of Nottingham'), trying new food, and playing around with my dog.",
-  "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless =).",
+  "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless :).",
 ];
 
 /**
