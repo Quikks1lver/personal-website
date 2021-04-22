@@ -41,7 +41,7 @@ const csMajorPara: string[] = [
 
 const otherInterestsPara: string[] = [
   "Aside from coding, of course ;), I enjoy reading and writing comic books, watching movies, playing cool board games (particularly 'Sherriff of Nottingham'), trying new food, and playing around with my dog.",
-  "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless =).",
+  "Thanks for reading, and I hope you check out the rest of the site. Peace, and God bless :).",
 ];
 
 /**
