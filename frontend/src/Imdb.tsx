@@ -13,7 +13,7 @@ import imdb_vid from "./clips/imdb.gif";
 const paragraphs: string[] = [
   "IMDB Parsing was my first venture into web scraping. I used Python's Beautiful Soup module to scrape IMDB's movie ratings.",
   "Simply input what time period of movies you enjoy and a general rating threshold, and this program will recommend movies!",
-  "Feel free to view the brief demo above, and check out the GitHub repo below!",
+  "Feel free to view the brief demo!",
 ];
 
 /**
@@ -34,11 +34,9 @@ const Imdb = () => {
         moreInfo={["Get Movie Recommendations!", "Dec. 2019"]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
+      <TerminalTextBox paragraphs={paragraphs} />
 
       <Media media={imdb_vid} altText="IMDB Parsing video" />
-
-      <TerminalTextBox paragraphs={paragraphs.slice(2)} />
 
       <div className="link-box-container">
         <LinkBox

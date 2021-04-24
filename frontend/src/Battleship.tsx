@@ -13,7 +13,7 @@ import battleship_vid from "./clips/battleship.gif";
 const paragraphs: string[] = [
   "Battleship was my very first personal project.",
   "It's nothing too fancy--just a simple text-based game vs. a computer.",
-  "Feel free to view the brief demo above, and check out the GitHub repo below!",
+  "Feel free to view the brief demo!",
 ];
 
 /**
@@ -38,11 +38,9 @@ const Battleship = () => {
         ]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
+      <TerminalTextBox paragraphs={paragraphs} />
 
       <Media media={battleship_vid} altText="Battleship video" />
-
-      <TerminalTextBox paragraphs={paragraphs.slice(2)} />
 
       <div className="link-box-container">
         <LinkBox
