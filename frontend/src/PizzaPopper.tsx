@@ -13,7 +13,7 @@ import pizza_vid from "./clips/pizza.gif";
 const paragraphs: string[] = [
   "Pizza Popper was my very first React project; I wanted to create a fun game to get better at the framework.",
   "The object of the game is to simply bake as many pizzas as possible!",
-  "Feel free to view the brief demo above, and check out the GitHub repo below!",
+  "Feel free to view the brief demo!",
 ];
 
 /**
@@ -38,11 +38,9 @@ const PizzaPopper = () => {
         ]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 2)} />
+      <TerminalTextBox paragraphs={paragraphs} />
 
       <Media media={pizza_vid} altText="Pizza Popper video" />
-
-      <TerminalTextBox paragraphs={paragraphs.slice(2)} />
 
       <div className="link-box-container">
         <LinkBox
