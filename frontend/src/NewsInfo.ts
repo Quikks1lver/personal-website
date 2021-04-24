@@ -6,7 +6,7 @@ import { newsArticleProp } from "./CustomTypes";
 var newsInfo: newsArticleProp[] = [];
 
 newsInfo.push({
-  blurb: "May 2019: High School Graduation / Salutatorian Speech",
+  blurb: "May 2019: High School President / Salutatorian Speech",
   link:
     "https://www.dailylocal.com/news/local/weather-perfect-as-312-graduate-from-henderson-high-school/article_f1f68486-89e2-11e9-909f-fbb593093149.html",
 });
