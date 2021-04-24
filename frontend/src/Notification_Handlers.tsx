@@ -20,7 +20,7 @@ const sendNotification = (
     subtitle: subtitle,
     message: message,
     duration: duration,
-    theme: "red",
+    theme: "darkblue",
   };
   addNotification(options);
 };
