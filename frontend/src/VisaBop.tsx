@@ -15,7 +15,7 @@ const paragraphs: string[] = [
   "Visa Bop was the project a couple of friends and I worked on for SwampHacks 2020, headed by the University of Florida.",
   "The idea was a website to connect immigrants to the U.S. with relevant jobs, based on visa type.",
   "I primarily worked on scraping Indeed.com for job postings using Python's Beautiful Soup module; I sent this information back to the front end.",
-  "Feel free to view the brief demo of my part of the project, and check out our Devpost submission and our GitHub repo below!",
+  "Feel free to view the brief demo!",
 ];
 
 /**
@@ -40,11 +40,9 @@ const VisaBop = () => {
         ]}
       />
 
-      <TerminalTextBox paragraphs={paragraphs.slice(0, 3)} />
+      <TerminalTextBox paragraphs={paragraphs} />
 
       <Media media={vb_vid} altText="Visa Bop demo" />
-
-      <TerminalTextBox paragraphs={paragraphs.slice(3)} />
 
       <div className="link-box-container">
         <LinkBox
