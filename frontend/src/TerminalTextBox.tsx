@@ -8,11 +8,7 @@ const TerminalTextBox = ({ paragraphs }: { paragraphs: string[] }) => {
   const renderParagraphs = (paragraphs: string[]): JSX.Element[] => {
     var jsxParas: JSX.Element[] = [];
     paragraphs.forEach((p) => {
-      jsxParas.push(
-        <p className="paragraph">
-          {">"} {p}
-        </p>
-      );
+      jsxParas.push(<p className="paragraph">{p}</p>);
     });
     return jsxParas;
   };
