@@ -1,6 +1,7 @@
 # Adam's Personal Website
 
-_Hello! My [personal website](https://quikks1lver.github.io/personal-website/) is currently a work-in-progress, but feel free to check it out!_
+_Hello! Here's the home of my **[personal website](https://quikks1lver.github.io/personal-website/)'s** source code!_
+Feel free to check out the website, deployed using GitHub pages, and check out `resources/` to see how I built it.
 
 # How to Run Locally
 
