@@ -17,6 +17,10 @@ const ContactMe = () => {
       transition={pageTransition}
     >
       <MiniHeading heading="Contact Me" />
+      <h2 style={{ textAlign: "center" }}>
+        Please reach me at{" "}
+        <a href="mailto: fernadam8@gmail.com">fernadam8@gmail.com</a>!
+      </h2>
     </motion.div>
   );
 };
