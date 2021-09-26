@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.9fcb1a0b.chunk.css",
-    "main.js": "/personal-website/static/js/main.14b244c2.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.14b244c2.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.88b115ea.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.88b115ea.js.map",
+    "main.js": "/personal-website/static/js/main.a3ac2f65.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.a3ac2f65.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.ecf9cb65.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.ecf9cb65.js.map",
     "static/css/2.e40bb983.chunk.css": "/personal-website/static/css/2.e40bb983.chunk.css",
-    "static/js/2.6058dc45.chunk.js": "/personal-website/static/js/2.6058dc45.chunk.js",
-    "static/js/2.6058dc45.chunk.js.map": "/personal-website/static/js/2.6058dc45.chunk.js.map",
-    "static/js/3.07bc0aa1.chunk.js": "/personal-website/static/js/3.07bc0aa1.chunk.js",
-    "static/js/3.07bc0aa1.chunk.js.map": "/personal-website/static/js/3.07bc0aa1.chunk.js.map",
+    "static/js/2.00fdd394.chunk.js": "/personal-website/static/js/2.00fdd394.chunk.js",
+    "static/js/2.00fdd394.chunk.js.map": "/personal-website/static/js/2.00fdd394.chunk.js.map",
+    "static/js/3.e9d992b3.chunk.js": "/personal-website/static/js/3.e9d992b3.chunk.js",
+    "static/js/3.e9d992b3.chunk.js.map": "/personal-website/static/js/3.e9d992b3.chunk.js.map",
     "index.html": "/personal-website/index.html",
     "static/css/2.e40bb983.chunk.css.map": "/personal-website/static/css/2.e40bb983.chunk.css.map",
     "static/css/main.9fcb1a0b.chunk.css.map": "/personal-website/static/css/main.9fcb1a0b.chunk.css.map",
-    "static/js/2.6058dc45.chunk.js.LICENSE.txt": "/personal-website/static/js/2.6058dc45.chunk.js.LICENSE.txt",
+    "static/js/2.00fdd394.chunk.js.LICENSE.txt": "/personal-website/static/js/2.00fdd394.chunk.js.LICENSE.txt",
     "static/media/adidama.de34c911.png": "/personal-website/static/media/adidama.de34c911.png",
     "static/media/battleship.143030a2.gif": "/personal-website/static/media/battleship.143030a2.gif",
     "static/media/battleship_icon.80d3bac9.png": "/personal-website/static/media/battleship_icon.80d3bac9.png",
@@ -35,10 +35,10 @@
     "static/media/visa_icon.0ab2f7a3.png": "/personal-website/static/media/visa_icon.0ab2f7a3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.88b115ea.js",
+    "static/js/runtime-main.ecf9cb65.js",
     "static/css/2.e40bb983.chunk.css",
-    "static/js/2.6058dc45.chunk.js",
+    "static/js/2.00fdd394.chunk.js",
     "static/css/main.9fcb1a0b.chunk.css",
-    "static/js/main.14b244c2.chunk.js"
+    "static/js/main.a3ac2f65.chunk.js"
   ]
 }
