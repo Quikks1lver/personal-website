@@ -68,46 +68,6 @@ const ContactMe = () => {
       transition={pageTransition}
     >
       <MiniHeading heading="Contact Me" />
-      <form className="contact-form" onSubmit={handleClick}>
-        <input
-          className="contact-input"
-          type="hidden"
-          name="contact_number"
-          required={true}
-        />
-        <input
-          className="contact-input"
-          placeholder={"Name"}
-          type="text"
-          name="name"
-          required={true}
-        />
-        <input
-          className="contact-input"
-          placeholder={"Email Address"}
-          type="email"
-          name="email"
-          required={true}
-        />
-        <textarea
-          className="contact-input"
-          placeholder="Message"
-          name="message"
-          style={{ height: 60 }}
-          required={true}
-        />
-        <input
-          onMouseEnter={() => setIsHoveredUpon(true)}
-          onMouseLeave={() => setIsHoveredUpon(false)}
-          className="contact-submit"
-          type="submit"
-          value="Send"
-          style={isHoveredUpon ? hoveredStyle : undefined}
-        />
-      </form>
-      <h5 style={citeStyle}>
-        <em>Powered by EmailJS</em>
-      </h5>
     </motion.div>
   );
 };
