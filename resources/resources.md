@@ -25,3 +25,4 @@
   - [Stack Overflow post on how to use useLocation](https://stackoverflow.com/questions/60441226/react-routing-detect-route-change)
 - [Framer Motion NPM Module](https://www.npmjs.com/package/framer-motion)
   - [Tutorial](https://www.youtube.com/watch?v=qJt-FtzJ5fo)
+- [Automatic Deployment of GitHub actions](https://demiglace0505.medium.com/how-to-deploy-a-static-react-app-on-github-pages-and-setup-github-actions-to-automate-the-build-2ec22b94c9d1)
