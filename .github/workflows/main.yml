@@ -12,10 +12,10 @@ jobs:
 
       - name: Install and Build 🔧 # Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
+          cd frontend
           npm install
-          npm run build
+          npm run deploy
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: frontend/build # The folder the action should deploy.
+          branch: test # The branch the action should deploy to.
