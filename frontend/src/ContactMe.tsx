@@ -18,7 +18,7 @@ const ContactMe = () => {
     >
       <MiniHeading heading="Contact Me" />
       <h2 style={{ textAlign: "center" }}>
-        Feel free to reach me at{" "}
+        Hit me up at{" "}
         <a href="mailto: fernadam8@gmail.com">fernadam8@gmail.com</a>!
       </h2>
     </motion.div>
