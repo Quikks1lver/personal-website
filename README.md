@@ -1,4 +1,5 @@
 ![GitHub Pages Deployment](https://github.com/Quikks1lver/personal-website/actions/workflows/main.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Adam's Personal Website
 
