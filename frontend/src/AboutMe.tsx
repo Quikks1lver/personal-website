@@ -88,7 +88,7 @@ const AboutMe = () => {
         altText="Matrix code"
         largeScreenPictureWidthPercentage={PIC_WIDTH_LARGE_SCREEN}
         smallScreenPictureWidthPercentage={PIC_WIDTH_SMALL_SCREEN}
-        caption="What do these numbers mean?"
+        caption="Huh? What do these numbers mean?"
       />
 
       <TerminalTextBox paragraphs={csMajorPara} />

@@ -130,7 +130,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 428px) {
   .header {
     flex-direction: column;
   }
