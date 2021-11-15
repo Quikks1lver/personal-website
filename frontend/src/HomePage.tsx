@@ -11,7 +11,7 @@ import linkedInLogo from "./images/linkedin_logo.png";
 import emailLogo from "./images/email_logo.png";
 import Footer from "./Footer";
 
-const heading: string = "👋 Welcome to my website!";
+const heading: string = "Welcome to my website!";
 const paragraphs: string[] = [
   "I'm an aspiring Software Engineer, and currently a junior at the UCF Burnett Honors College, pursuing a B.S. in Computer Science with a Minor in Statistics.",
   "So far, I've accumulated solid experience through internships, research, projects, hackathons, and teaching assistantship -- but I'm always game to dive into more ;).",
