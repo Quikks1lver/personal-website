@@ -1,3 +1,5 @@
+![GitHub Pages Deployment](https://github.com/Quikks1lver/personal-website/actions/workflows/main.yml/badge.svg)
+
 # Adam's Personal Website
 
 - The home of my personal website's source code 🙂.
