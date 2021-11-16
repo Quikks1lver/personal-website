@@ -1,7 +1,7 @@
 import { newsArticleProp } from "./CustomTypes";
 
 /**
- * news articles
+ * news articles; be sure to check every once in a while to ensure the links are not broken
  */
 var newsInfo: newsArticleProp[] = [];
 
